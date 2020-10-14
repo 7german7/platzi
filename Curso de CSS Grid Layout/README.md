@@ -4,8 +4,9 @@
 1. [Clase 1: ¿Qué es CSS Grids?](#CSS-Grids).
 2. [Clase 2: Conceptos Fundamentales sobre CSS Grid Layout](#Conceptos-Fundamentales).
 3. [Clase 3: Definiendo Columnas](#Definiendo-Columnas).
-4. [Soporte](#Soporte).
-5. [Herramientas Adicionales](#herramientas-adicionales).
+4. [Referencias](#Referencias).
+5. [Soporte](#Soporte).
+6. [Herramientas Adicionales](#Herramientas-Adicionales).
 
 ## CSS Grids
 
@@ -96,10 +97,6 @@ CSS
 - **Grid explicito** (explicit grid) es cuando nosotros definimos el numero de filas o columnas.
 - **Grid implicito** (implicit grid) es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
 
-**Referencias**: 
-- [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
-- [W3-Schools](https://www.w3schools.com/css/css_grid.asp).
-
 ## Definiendo Columnas
 
 - Se debe poner el display de grid al contenedor.
@@ -131,6 +128,11 @@ CSS
  	grid-template-columns: 25% 200px 25%;
 }
 ```
+
+## Referencias
+ 
+- [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
+- [W3-Schools](https://www.w3schools.com/css/css_grid.asp).
 
 ## Soporte
 
