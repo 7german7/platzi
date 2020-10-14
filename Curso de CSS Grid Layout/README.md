@@ -134,8 +134,8 @@ CSS
 
 ## Soporte
 
-- ![](https://caniuse.com/css-grid).
+- [Caniuse](https://caniuse.com/css-grid).
 
 ## Herramientas Adicionales
 
-- ![Emmet Shortcuts](https://docs.emmet.io/cheat-sheet/).
+- [Emmet Shortcuts](https://docs.emmet.io/cheat-sheet/).
