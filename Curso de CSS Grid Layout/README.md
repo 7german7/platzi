@@ -40,10 +40,7 @@ CSS
 }
 ```
 - **Grid Item**: Son nuestro componentes, contenido, lo que vamos a manejar. Nuestras filas o columnas que vamos a mover a nuestro gusto. Son hijos directos de grid.
-
-
 - **Grid Line**: Lineas divisorias horizontales y verticales.
- ![](https://www.w3schools.com/css/grid_gaps.png).
 - **Grid Track**: Espacio entre dos líneas adyacentes. Filas y columnas.
 - **Grid Cell**: Celdas, espacio en dos filas adyacentes y 2 columnas adyacentes.
 - **Grid Area**: Espacio rodeado por 4 grid lines.
