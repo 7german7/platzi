@@ -11,10 +11,23 @@
 El módulo de CSS Grids nos permite generar layouts o distribuciones del contenido en nuestros sitios web de forma eficiente. Controla esta estructura bidimensional de filas y columnas fácilmente con propiedades de CSS logrando un mejor flujo que el que se tiene al utilizar tags de HTML.
 
 ## Conceptos Fundamentales
-
-- **Grid Container**: Va a ser el elemento padre que va a tener puesto un nuevo tipo de display: grid. Nos permite colocar otras propiedades para manipular nuestro layaout.
 ```
 HTML
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+</div>
+```
+- **Grid Container**: Va a ser el elemento padre que va a tener puesto un nuevo tipo de display: grid. Nos permite colocar otras propiedades para manipular nuestro layaout.
+```
+CSS
 .grid-container {
   display: grid;
 }
@@ -27,9 +40,21 @@ CSS
 }
 ```
 - **Grid Item**: Son nuestro componentes, contenido, lo que vamos a manejar. Nuestras filas o columnas que vamos a mover a nuestro gusto. Son hijos directos de grid.
+
+
 - **Grid Line**: Lineas divisorias horizontales y verticales.
 - **Grid Track**: Espacio entre dos líneas adyacentes. Filas y columnas.
 - **Grid Cell**: Celdas, espacio en dos filas adyacentes y 2 columnas adyacentes.
 - **Grid Area**: Espacio rodeado por 4 grid lines.
+- **Grid Gaps** (W3 Schools - Definición): Los espacios entre cada columna / fila se denominan espacios.
+Puede ajustar el tamaño del espacio utilizando una de las siguientes propiedades:
+```
+**CSS**
+grid-column-gap
+grid-row-gap
+grid-gap
+```
 
-**Referencia**: [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
+**ReferenciaS**: 
+- [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
+- [W3-Schools](https://www.w3schools.com/css/css_grid.asp).
