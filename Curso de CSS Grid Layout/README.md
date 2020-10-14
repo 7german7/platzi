@@ -14,7 +14,7 @@ El módulo de CSS Grids nos permite generar layouts o distribuciones del conteni
 
 - **Grid Container**: Va a ser el elemento padre que va a tener puesto un nuevo tipo de display: grid. Nos permite colocar otras propiedades para manipular nuestro layaout.
 ```
-CSS
+HTML
 .grid-container {
   display: grid;
 }
@@ -30,5 +30,6 @@ CSS
 - **Grid Line**: Lineas divisorias horizontales y verticales.
 - **Grid Track**: Espacio entre dos líneas adyacentes. Filas y columnas.
 - **Grid Cell**: Celdas, espacio en dos filas adyacentes y 2 columnas adyacentes.
-- **Grid Area**: Espacio rodeado por 4 grid lines
-Referencia**: [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
+- **Grid Area**: Espacio rodeado por 4 grid lines.
+
+**Referencia**: [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
