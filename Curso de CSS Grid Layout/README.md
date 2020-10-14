@@ -6,7 +6,7 @@
 
 ## CSS Grids
 
-![CSS Grid Layout](http://appatico.com/wp-content/uploads/2019/08/css-grid-layout.png)
+![](http://appatico.com/wp-content/uploads/2019/08/css-grid-layout.png)
 
 El módulo de CSS Grids nos permite generar layouts o distribuciones del contenido en nuestros sitios web de forma eficiente. Controla esta estructura bidimensional de filas y columnas fácilmente con propiedades de CSS logrando un mejor flujo que el que se tiene al utilizar tags de HTML.
 
@@ -43,7 +43,7 @@ CSS
 
 
 - **Grid Line**: Lineas divisorias horizontales y verticales.
- ![Grid Lines](https://www.w3schools.com/css/grid_gaps.png)
+ ![](https://www.w3schools.com/css/grid_gaps.png).
 - **Grid Track**: Espacio entre dos líneas adyacentes. Filas y columnas.
 - **Grid Cell**: Celdas, espacio en dos filas adyacentes y 2 columnas adyacentes.
 - **Grid Area**: Espacio rodeado por 4 grid lines.
