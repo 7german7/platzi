@@ -2,7 +2,10 @@
 
 ## Contenido
 1. [Clase 1: ¿Qué es CSS Grids?](#CSS-Grids).
-2. [Clase 2: Conceptos fundamentales sobre CSS Grid Layout](#Conceptos-Fundamentales).
+2. [Clase 2: Conceptos Fundamentales sobre CSS Grid Layout](#Conceptos-Fundamentales).
+3. [Clase 3: Definiendo Columnas](#Definiendo-Columnas).
+4. [Soporte](#Soporte).
+5. [Herramientas Adicionales](#herramientas-adicionales).
 
 ## CSS Grids
 
@@ -96,3 +99,43 @@ CSS
 **Referencias**: 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
 - [W3-Schools](https://www.w3schools.com/css/css_grid.asp).
+
+## Definiendo Columnas
+
+- Se debe poner el display de grid al contenedor.
+```
+CSS
+.container{
+	display: grid;
+}
+```
+Para definir columnas debemos ponerle la propiedad de grid-template-columns al contenedor, en esta debemos definir el tamaño de cada una de las columnas, por ejemplo: si en la propiedad ponemos los siguientes valores.
+```
+CSS
+.container{
+ 	grid-template-columns: 200px 200px 200px;
+}
+```
+Estamos estableciendo tres columnas, cada una de 200px.
+También podemos poner medidas dinámicas, tales como porcentajes, se definen exactamente igual que como en el ejemplo anterior:
+```
+CSS
+.container{
+ 	grid-template-columns: 25% 50% 25%;
+}
+```
+También podemos combinar las medidas relativas con las medidas absolutas:
+```
+CSS
+.container{
+ 	grid-template-columns: 25% 200px 25%;
+}
+```
+
+## Soporte
+
+- ![](https://caniuse.com/css-grid).
+
+## Herramientas Adicionales
+
+- ![Emmet Shortcuts](https://docs.emmet.io/cheat-sheet/).
