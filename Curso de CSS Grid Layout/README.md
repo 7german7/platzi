@@ -77,10 +77,14 @@ CSS
 }
 ```
 ó
+
+```
+CSS
 .grid-container {
   display: grid;
   grid-gap: 50px; /*Fila y columna = 50px*/
 }
+```
 
 **ReferenciaS**: 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
