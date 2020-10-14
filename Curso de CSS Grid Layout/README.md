@@ -11,6 +11,9 @@
 El módulo de CSS Grids nos permite generar layouts o distribuciones del contenido en nuestros sitios web de forma eficiente. Controla esta estructura bidimensional de filas y columnas fácilmente con propiedades de CSS logrando un mejor flujo que el que se tiene al utilizar tags de HTML.
 
 ## Conceptos Fundamentales
+
+![](https://www.w3schools.com/css/grid_lines.png).
+
 ```
 HTML
 <div class="grid-container">
@@ -86,6 +89,6 @@ CSS
 }
 ```
 
-**ReferenciaS**: 
+**Referencias**: 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
 - [W3-Schools](https://www.w3schools.com/css/css_grid.asp).
