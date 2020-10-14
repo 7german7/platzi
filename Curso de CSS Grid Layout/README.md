@@ -6,7 +6,7 @@
 
 ## CSS Grids
 
-![](http://appatico.com/wp-content/uploads/2019/08/css-grid-layout.png)
+![CSS Grid Layout](http://appatico.com/wp-content/uploads/2019/08/css-grid-layout.png)
 
 El módulo de CSS Grids nos permite generar layouts o distribuciones del contenido en nuestros sitios web de forma eficiente. Controla esta estructura bidimensional de filas y columnas fácilmente con propiedades de CSS logrando un mejor flujo que el que se tiene al utilizar tags de HTML.
 
@@ -43,17 +43,47 @@ CSS
 
 
 - **Grid Line**: Lineas divisorias horizontales y verticales.
+ ![Grid Lines](https://www.w3schools.com/css/grid_gaps.png)
 - **Grid Track**: Espacio entre dos líneas adyacentes. Filas y columnas.
 - **Grid Cell**: Celdas, espacio en dos filas adyacentes y 2 columnas adyacentes.
 - **Grid Area**: Espacio rodeado por 4 grid lines.
 - **Grid Gaps** (W3 Schools - Definición): Los espacios entre cada columna / fila se denominan espacios.
 Puede ajustar el tamaño del espacio utilizando una de las siguientes propiedades:
 ```
-**CSS**
+CSS
 grid-column-gap
 grid-row-gap
 grid-gap
 ```
+Ejemplo 1, agregando espacio en las columnas:
+```
+CSS
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+}
+```
+Ejemplo 2, agregando espacio en las filas:
+```
+CSS
+.grid-container {
+  display: grid;
+  grid-row-gap: 50px;
+}
+```
+Ejemplo 3, agregando espacio en las filas y columnas al mismo tiempo:
+```
+CSS
+.grid-container {
+  display: grid;
+  grid-gap: 50px 100px; /*izquierda = fila, derecha = columna*/
+}
+```
+ó
+.grid-container {
+  display: grid;
+  grid-gap: 50px; /*Fila y columna = 50px*/
+}
 
 **ReferenciaS**: 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
