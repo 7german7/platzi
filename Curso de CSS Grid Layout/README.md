@@ -89,6 +89,10 @@ CSS
 }
 ```
 
+**Terminos**:
+- **Grid explicito** (explicit grid) es cuando nosotros definimos el numero de filas o columnas.
+- **Grid implicito** (implicit grid) es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
+
 **Referencias**: 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
 - [W3-Schools](https://www.w3schools.com/css/css_grid.asp).
