@@ -122,7 +122,7 @@ CSS
  	grid-template-columns: 25% 50% 25%;
 }
 ```
-También podemos combinar las medidas relativas con las medidas absolutas:
+- También podemos combinar las medidas relativas con las medidas absolutas:
 ```
 CSS
 .container{
