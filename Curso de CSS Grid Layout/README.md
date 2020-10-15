@@ -4,9 +4,10 @@
 1. [Clase 1: ¿Qué es CSS Grids?](#CSS-Grids).
 2. [Clase 2: Conceptos Fundamentales sobre CSS Grid Layout](#Conceptos-Fundamentales).
 3. [Clase 3: Definiendo Columnas](#Definiendo-Columnas).
-4. [Referencias](#Referencias).
-5. [Soporte](#Soporte).
-6. [Herramientas Adicionales](#Herramientas-Adicionales).
+4. [Definiendo Filas](#Definiendo-Filas).
+5. [Referencias](#Referencias).
+6. [Soporte](#Soporte).
+7. [Herramientas Adicionales](#Herramientas-Adicionales).
 
 ## CSS Grids
 
@@ -128,6 +129,21 @@ CSS
  	grid-template-columns: 25% 200px 25%;
 }
 ```
+
+## Definiendo filas
+
+Para definir filas:
+```
+CSS
+grid-template-rows: valores;
+```
+
+Para definir filas y columnas:
+```
+CSS
+grid-template: filas / columnas;
+```
+
 
 ## Referencias
 
