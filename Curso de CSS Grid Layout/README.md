@@ -107,14 +107,14 @@ CSS
 	display: grid;
 }
 ```
-Para definir columnas debemos ponerle la propiedad de grid-template-columns al contenedor, en esta debemos definir el tamaño de cada una de las columnas, por ejemplo: si en la propiedad ponemos los siguientes valores.
+- Para definir columnas debemos ponerle la propiedad de grid-template-columns al contenedor, en esta debemos definir el tamaño de cada una de las columnas, por ejemplo: si en la propiedad ponemos los siguientes valores.
 ```
 CSS
 .container{
  	grid-template-columns: 200px 200px 200px;
 }
 ```
-Estamos estableciendo tres columnas, cada una de 200px.
+- Estamos estableciendo tres columnas, cada una de 200px.
 También podemos poner medidas dinámicas, tales como porcentajes, se definen exactamente igual que como en el ejemplo anterior:
 ```
 CSS
@@ -132,13 +132,13 @@ CSS
 
 ## Definiendo filas
 
-Para definir filas:
+- Para definir filas:
 ```
 CSS
 grid-template-rows: valores;
 ```
 
-Para definir filas y columnas:
+- Para definir filas y columnas:
 ```
 CSS
 grid-template: filas / columnas;
