@@ -130,9 +130,10 @@ CSS
 ```
 
 ## Referencias
- 
+
 - [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
 - [W3-Schools](https://www.w3schools.com/css/css_grid.asp).
+- [Explicit vs Implicit Grids](https://www.quackit.com/css/grid/tutorial/explicit_vs_implicit_grid.cfm).
 
 ## Soporte
 
