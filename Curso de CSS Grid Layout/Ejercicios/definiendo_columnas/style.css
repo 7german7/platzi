@@ -1,0 +1,18 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+}
+
+main section.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+main section.container div.item {
+  border: 2px solid palevioletred;
+  border-radius: 5px;
+}
