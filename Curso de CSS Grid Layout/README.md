@@ -5,9 +5,10 @@
 2. [Clase 2: Conceptos Fundamentales sobre CSS Grid Layout](#Conceptos-Fundamentales).
 3. [Clase 3: Definiendo Columnas](#Definiendo-Columnas).
 4. [Definiendo Filas](#Definiendo-Filas).
-5. [Referencias](#Referencias).
-6. [Soporte](#Soporte).
-7. [Herramientas Adicionales](#Herramientas-Adicionales).
+5. [Grids identados y tipos de displays](#Grids-identados-y-tipos-de-displays).
+99. [Referencias](#Referencias).
+100. [Soporte](#Soporte).
+101. [Herramientas Adicionales](#Herramientas-Adicionales).
 
 ## CSS Grids
 
@@ -144,6 +145,20 @@ CSS
 grid-template: filas / columnas;
 ```
 
+## Grids identados y tipos de displays
+
+- Con display: subgrid; heredamos la configuración de filas y columnas que asignemos en el grid padre.
+```
+CSS
+/*Display subgrid para heredar la configuración del grid padre (cuando se esten anidando grids).*/
+display: subgrid; // No disponible aun
+```
+```
+CSS
+/*Display inline-grid muestra el grid en una sola linea.
+display: inline-grid; // No disponible aun
+*/
+```
 
 ## Referencias
 
