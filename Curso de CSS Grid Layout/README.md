@@ -7,9 +7,12 @@
 4. [Definiendo Filas](#Definiendo-Filas).
 5. [Grids identados y tipos de displays](#Grids-identados-y-tipos-de-displays).
 6. [Espaciado entre filas y columnas](#Espaciado-entre-filas-y-columnas).
+7. [Repetidores, unidades de medida y funciones](#Repetidores,-unidades-de-medida-y-funciones).
+8. [Definiendo áreas de contenido](#Definiendo-áreas-de-contenido).
 99. [Referencias](#Referencias).
 100. [Soporte](#Soporte).
 101. [Herramientas Adicionales](#Herramientas-Adicionales).
+102. [Funciones CSS](#Funciones-css).
 
 ## CSS Grids
 
@@ -187,6 +190,62 @@ grid-gap: grid-row-gap grid-column-gap;
 - [cssreference](#https://cssreference.io/property/grid-gap/).
 - [W3-Schools](https://www.w3schools.com/cssref/pr_grid-gap.asp).
 
+## Repetidores, unidades de medida y funciones
+
+- **Unidad de medida**: fracciones fr distrubuye el espacio disponible en formas iguales.
+
+**Funciones**:
+- repeat(cantidad, valor) para usar el mismo valor varias veces.
+- minmax(min, max), agrega un valor minimo y maximo para el tamaño al hacer responsive.
+
+**NOTAS**: 
+- Si asignamos como valor: auto al espaciado de las columnas, estas se ajustaran de acuerdo al tamaño de referencia que tenga su contenido.
+- repeat(4, 1fr); CSS3, nos proporciona el uso de funciones, en éste caso multiplicará 4 veces la misma fracción.
+- minmax(valor,valor). Nos permite asignar un valor mínimo y máximo.
+
+## Definiendo áreas de contenido
+
+Si vamos a usar área en más de una columna colocamos el mismo donde del área donde la queramos.
+
+```
+CSS
+grid-template-areas: "header header" 
+                     "left contenido" 
+                     "footer footer";
+```
+
+Para usar las áreas
+```
+CSS
+.header {
+  grid-area: header:
+}
+```
+grid-column: Define cuántos espacios de columna va a tomar un grid item. El inicio toma desde la primera línea del grid.
+
+```
+CSS
+grid-column-start: 1;
+grid-column-end: 3;
+grid-column: inicio / final;
+```
+
+Para definir por fracciones (columnas): span #fracciones
+
+Para usar el espacio de toda la fila usamos -1 al final.
+Ejemplo: grid-column: 1/ -1;
+
+grid-row: Define cuántos espacios de fila va a tomar un grid item. El inicio toma desde la primera línea del grid.
+
+```
+CSS
+grid-row-start: 1;
+grid-row-end: 3;
+grid-row: inicio / final;
+```
+Para definir por fracciones (columnas): span #fracciones Para usar el espacio de toda la fila usamos -1 al final.
+Ejemplo: grid-column: 1/ -1;
+
 ## Referencias
 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
@@ -200,3 +259,5 @@ grid-gap: grid-row-gap grid-column-gap;
 ## Herramientas Adicionales
 
 - [Emmet Shortcuts](https://docs.emmet.io/cheat-sheet/).
+
+## Funciones CSS
