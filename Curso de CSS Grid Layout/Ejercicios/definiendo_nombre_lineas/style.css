@@ -33,10 +33,6 @@ header {
   grid-column: begin / final;
 }
 
-aside {
-  
-}
-
 footer {
   grid-column: begin / final;
 }
