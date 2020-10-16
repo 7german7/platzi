@@ -261,3 +261,5 @@ Para definir por fracciones (columnas): span #fracciones Para usar el espacio de
 - [Emmet Shortcuts](https://docs.emmet.io/cheat-sheet/).
 
 ## Funciones CSS
+
+- [W3-Schools](#https://www.w3schools.com/csSref/css_functions.asp).
