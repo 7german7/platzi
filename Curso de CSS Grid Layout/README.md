@@ -162,11 +162,30 @@ CSS
 display: inline-grid; // No disponible aun
 ```
 
-**Artículo**: [subgrid](https://rachelandrew.co.uk/archives/2017/03/16/subgrid-moved-to-level-2-of-the-css-grid-specification/).
+**Artículo**:
+
+- [subgrid](https://rachelandrew.co.uk/archives/2017/03/16/subgrid-moved-to-level-2-of-the-css-grid-specification/).
 
 ## Espaciado entre filas y columnas
 
+La propiedad grid-gap define el tamaño del espacio entre las filas y columnas en un diseño de cuadrícula, y es una propiedad abreviada para las siguientes propiedades:
 
+```
+CSS
+grid-row-gap: valor;
+grid-column-gap: valor;
+```
+
+Syntaxis directa para agregar tamaños a las filas y columnas.
+```
+CSS
+grid-gap: grid-row-gap grid-column-gap;
+```
+
+**Artículos**:
+
+- [cssreference](#https://cssreference.io/property/grid-gap/).
+- [W3-Schools](https://www.w3schools.com/cssref/pr_grid-gap.asp).
 
 ## Referencias
 
