@@ -221,7 +221,7 @@ CSS
   grid-area: header:
 }
 ```
-grid-column: Define cuántos espacios de columna va a tomar un grid item. El inicio toma desde la primera línea del grid.
+**grid-column**: Define cuántos espacios de columna va a tomar un grid item. El inicio toma desde la primera línea del grid.
 
 ```
 CSS
@@ -235,7 +235,7 @@ Para definir por fracciones (columnas): span #fracciones
 Para usar el espacio de toda la fila usamos -1 al final.
 Ejemplo: grid-column: 1/ -1;
 
-grid-row: Define cuántos espacios de fila va a tomar un grid item. El inicio toma desde la primera línea del grid.
+**grid-row**: Define cuántos espacios de fila va a tomar un grid item. El inicio toma desde la primera línea del grid.
 
 ```
 CSS
@@ -244,7 +244,7 @@ grid-row-end: 3;
 grid-row: inicio / final;
 ```
 Para definir por fracciones (columnas): span #fracciones Para usar el espacio de toda la fila usamos -1 al final.
-Ejemplo: grid-column: 1/ -1;
+**Ejemplo**: grid-column: 1/ -1;
 
 ## Referencias
 
