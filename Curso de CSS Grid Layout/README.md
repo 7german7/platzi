@@ -6,6 +6,7 @@
 3. [Clase 3: Definiendo Columnas](#Definiendo-Columnas).
 4. [Definiendo Filas](#Definiendo-Filas).
 5. [Grids identados y tipos de displays](#Grids-identados-y-tipos-de-displays).
+6. [Espaciado entre filas y columnas](#Espaciado-entre-filas-y-columnas).
 99. [Referencias](#Referencias).
 100. [Soporte](#Soporte).
 101. [Herramientas Adicionales](#Herramientas-Adicionales).
@@ -151,14 +152,21 @@ grid-template: filas / columnas;
 ```
 CSS
 /*Display subgrid para heredar la configuración del grid padre (cuando se esten anidando grids).*/
+
 display: subgrid; // No disponible aun
 ```
 ```
 CSS
-/*Display inline-grid muestra el grid en una sola linea.
+/*Display inline-grid muestra el grid en una sola linea.*/
+
 display: inline-grid; // No disponible aun
-*/
 ```
+
+Artículo: [subgrid](https://rachelandrew.co.uk/archives/2017/03/16/subgrid-moved-to-level-2-of-the-css-grid-specification/).
+
+## Espaciado entre filas y columnas
+
+
 
 ## Referencias
 
