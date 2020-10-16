@@ -9,6 +9,8 @@
 6. [Espaciado entre filas y columnas](#Espaciado-entre-filas-y-columnas).
 7. [Repetidores, unidades de medida y funciones](#Repetidores,-unidades-de-medida-y-funciones).
 8. [Definiendo áreas de contenido](#Definiendo-áreas-de-contenido).
+9. [Definiendo el tamaño de filas dentro de un grid](#Definiendo-el-tamaño-de-filas-dentro-de-un-grid).
+10. [Definiendo el nombre de lineas](#Definiendo-el-nombre-de-lineas).
 99. [Referencias](#Referencias).
 100. [Soporte](#Soporte).
 101. [Herramientas Adicionales](#Herramientas-Adicionales).
@@ -116,7 +118,7 @@ CSS
 ```
 CSS
 .container{
- 	grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
 }
 ```
 - Estamos estableciendo tres columnas, cada una de 200px.
@@ -187,7 +189,7 @@ grid-gap: grid-row-gap grid-column-gap;
 
 **Artículos**:
 
-- [cssreference](#https://cssreference.io/property/grid-gap/).
+- [cssreference](#https://cssreference.io/property/grid-gap).
 - [W3-Schools](https://www.w3schools.com/cssref/pr_grid-gap.asp).
 
 ## Repetidores, unidades de medida y funciones
@@ -245,6 +247,15 @@ grid-row: inicio / final;
 ```
 Para definir por fracciones (columnas): span #fracciones Para usar el espacio de toda la fila usamos -1 al final.
 **Ejemplo**: grid-column: 1/ -1;
+
+## Definiendo el tamaño de filas dentro de un grid
+
+## Definiendo el nombre de lineas
+
+```
+CSS
+grid-template-columns: [inicio] 1fr [linea2] 1fr [final];
+```
 
 ## Referencias
 
