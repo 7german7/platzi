@@ -162,7 +162,7 @@ CSS
 display: inline-grid; // No disponible aun
 ```
 
-Artículo: [subgrid](https://rachelandrew.co.uk/archives/2017/03/16/subgrid-moved-to-level-2-of-the-css-grid-specification/).
+**Artículo**: [subgrid](https://rachelandrew.co.uk/archives/2017/03/16/subgrid-moved-to-level-2-of-the-css-grid-specification/).
 
 ## Espaciado entre filas y columnas
 
