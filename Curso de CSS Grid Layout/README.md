@@ -262,4 +262,4 @@ Para definir por fracciones (columnas): span #fracciones Para usar el espacio de
 
 ## Funciones CSS
 
-- [W3-Schools](#https://www.w3schools.com/csSref/css_functions.asp).
+- [W3-Schools](https://www.w3schools.com/csSref/css_functions.asp).
