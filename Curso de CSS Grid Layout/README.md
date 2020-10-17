@@ -11,6 +11,9 @@
 8. [Definiendo áreas de contenido](#Definiendo-áreas-de-contenido).
 9. [Definiendo el tamaño de filas dentro de un grid](#Definiendo-el-tamaño-de-filas-dentro-de-un-grid).
 10. [Definiendo el nombre de lineas](#Definiendo-el-nombre-de-lineas).
+11. [Manejando el grid implícito](#Manejando-el-grid-implícito).
+12. [Alineación de contenido](#Alineación-de-contenido).
+13. [Alineación de filas y columnas](#Alineación-de-filas-y-columnas).
 99. [Referencias](#Referencias).
 100. [Soporte](#Soporte).
 101. [Herramientas Adicionales](#Herramientas-Adicionales).
@@ -256,6 +259,40 @@ Para definir por fracciones (columnas): span #fracciones Para usar el espacio de
 CSS
 grid-template-columns: [inicio] 1fr [linea2] 1fr [final];
 ```
+
+## Manejando el grid implícito
+
+Por defecto viene grid-auto-flow: row;
+Para asignar el valor por defecto de el espacio de las columnas o filas que no han sido asignadas:
+```
+CSS
+grid-auto-columns: valores;
+grid-auto-rows: valores;
+```
+
+Para cambiar el flujo automático de mi grid:
+```
+CSS
+grid-auto-flow: column;
+```
+
+## Alineación de contenido
+
+Para alinear contenido:
+justify-items: valor; para alineación horizontal
+align-items: valor; para alineación vertical
+Los valores que toman por defecto es stretch el cual hace que tomen todo el valor asignado en la fila o columna.
+
+Para asignar la alineación de un solo elemento podemos usar:
+```
+CSS
+align-self: valor;
+justify-self: valor;
+```
+
+## Alineación de filas y columnas
+
+![](#https://cdn-media-1.freecodecamp.org/images/0*9_DylWfIulrq5tTl.png)
 
 ## Referencias
 
