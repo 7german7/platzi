@@ -27,7 +27,7 @@ El módulo de CSS Grids nos permite generar layouts o distribuciones del conteni
 
 ## Conceptos Fundamentales
 
-![](https://www.w3schools.com/css/grid_lines.png).
+![](https://www.w3schools.com/css/grid_lines.png)
 
 ```
 HTML
@@ -292,7 +292,7 @@ justify-self: valor;
 
 ## Alineación de filas y columnas
 
-![](#https://cdn-media-1.freecodecamp.org/images/0*9_DylWfIulrq5tTl.png)
+![](https://cdn-media-1.freecodecamp.org/images/0*9_DylWfIulrq5tTl.png)
 
 ## Referencias
 
