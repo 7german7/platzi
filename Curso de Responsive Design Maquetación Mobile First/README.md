@@ -20,11 +20,11 @@
  - Utilizar [Tinypng](https://tinypng.com/), para comprimir imágenes.
  - Nombrar variables CSS de la siguiente forma `--primary-color`.
  - Organizar nuestro código CSS con una estructura definida.
-    1. Posicionamiento --> static, absolute, relative, fixed
-    2. Modelo de caja (Box model) --> margin, border, padding, content
-    3. Tipografía --> tipos, tamaños de fuente, etc
-    4. Estilos visuales --> box-shadow, border-radius, gradient, etc
-    5. Otros --> reglas CSS y más
+    1. **Posicionamiento** --> static, absolute, relative, fixed
+    2. **Modelo de caja** (Box model) --> margin, border, padding, content
+    3. **Tipografía** --> tipos, tamaños de fuente, etc
+    4. **Estilos visuales** --> box-shadow, border-radius, gradient, etc
+    5. **Otros** --> reglas CSS y más
 
 ## Malas Practicas
 
