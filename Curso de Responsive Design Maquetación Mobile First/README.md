@@ -1,7 +1,7 @@
 # Apuntes del "Curso de Responsive Design: Maquetación Mobile First"
 
 ## Contenido
-- [Pasos para crear una página web](#pasos-para-crear-una-pagina-web).
+- [Pasos para crear una página web](#pasos-para-crear-una-página-web).
 
 ## Pasos para crear una página web
 
