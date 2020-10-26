@@ -46,6 +46,7 @@
 - Las etiquetas `<span></span>`, es una etiqueta comodin que podemos utilizarla para incluir iconos.
 - ¿Cómo implementar [BEM](https://platzi.com/comentario/1858259/)?
 - **Botón flotante**: Es aquel que se posiciona entre 2 secciones.
+- Los elementos de `position:absolute;` se ubicarán de acuerdo al elemento `position: relative` más cercano.
 
 ## Artículos
 
