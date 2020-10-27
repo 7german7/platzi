@@ -20,6 +20,7 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+  /* scroll-behavior: smooth; */
 }
 
 header {
@@ -284,8 +285,9 @@ header img {
 .main-product-detail .product-detail__card {
   align-self: center;
   width: 288px;
-  height: 152px;
-  padding: 25px 18px;
+  height: auto;
+  min-height: 150px;
+  padding: 25px 18px 0px 18px;
   margin-bottom: 16px;
   /* margin-right: 16px; */
   background: var(--black);
@@ -339,4 +341,241 @@ header img {
   line-height: 1.8rem;
   font-weight: 500;
   color: var(--dark-gray);
+  padding-bottom: 18px;
+}
+
+/*SECTION #4 - bitcoint-img-container*/
+
+.bitcoint-img-container {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  text-align: center;
+  background-image: url('../assets/img/bitcoinbabyx2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bitcoint-img-container h2 {
+  padding-top: 64px;
+  color: var(--just-white);
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  font-weight: bold;
+}
+
+/*SECTION #5 - PLANS*/
+
+.main-plans-container {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--off-white);
+  padding-top: 82px;
+  padding-bottom: 67px;
+}
+
+.main-plans-container .plans-title-container {
+  align-self: center;
+  width: 95%;
+  text-align: center;
+}
+
+.main-plans-container .plans-title-container h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  padding-bottom: 24px;
+}
+
+.main-plans-container .plans-title-container p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  padding-bottom: 50px;
+  color: #757575;
+}
+
+.main-cards-container {
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-cards-container .card-plan-container {
+  position: inherit;
+  padding-top: 31px;
+  margin-bottom: 64px;
+  min-width: 190px;
+  max-width: 223px;
+  height: auto;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background: var(--just-white);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.main-cards-container .card-plan-container .card-plan__recomended {
+  position: absolute;
+  padding: 8px 8px;
+  top: calc(-15.5px);
+  left: calc(50% - 50.5px);
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--just-white);
+  background: var(--bitcoin-orange);
+  border-radius: 8px;
+}
+
+.main-cards-container .card-plan-container .card-plan__title {
+  padding-bottom: 8px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+
+.main-cards-container .card-plan-container .card-plan__price {
+  padding-bottom: 9px;
+  font-weight: bold;
+  font-size: 5.2rem;
+  line-height: 6.3rem;
+}
+
+.main-cards-container .card-plan-container .card-plan__price span {
+  padding-right: 4px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+  vertical-align: 30px;
+}
+
+.main-cards-container .card-plan-container .card-plan__description {
+  padding-bottom: 16px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #757575;
+}
+
+.main-cards-container .card-plan-container .card-plan__ca {
+  padding: 5px 18px;
+  margin-bottom: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+  background: var(--off-white);
+  border-radius: 4px;
+  border: 2px solid var(--bitcoin-orange);
+}
+
+.main-cards-container .card-plan-container .card-plan__ca .card-plan__icon {
+  display: inline-block;
+  padding: 15px;
+  background-image: url('../assets/icons/arrow-right.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  vertical-align: -12px;
+}
+
+.main-plans-container .main-questions-container {
+  width: 95%;
+  max-width: 320px;
+  align-self: center;
+}
+
+.main-plans-container .plans-questions__title {
+  padding-bottom: 32px;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: var(--warm-black);
+}
+
+.main-plans-container .plans-questions__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #757575;
+}
+
+.main-plans-container .plans-questions__container .question-item {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.main-plans-container .plans-questions__container .question-arrow-down {
+  align-self: center;
+  width: 24px;
+  height: 12px;
+  background-image: url('../assets/icons/arrow-down.svg');
+  background-repeat: no-repeat;
+  background-size: center;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background: var(--bitcoin-orange);
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer__container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .footer__social-nav ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+footer .footer__social-nav li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+footer .footer__social-nav li a {
+  text-decoration: none;
+  color: var(--just-white);
+}
+
+footer .footer__img-container {
+  padding-top: 11px;
+  text-align: center;
+  color: var(--just-white);
+  font-size: .8rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+footer .footer__img-container img {
+  width: 100%;
 }
