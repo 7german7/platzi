@@ -1,11 +1,26 @@
 # Apuntes del "Curso de Responsive Design: Maquetación Mobile First"
 
 ## Contenido
+- [Scroll horizontal con CSS](#scroll-horizontal-con-css).
 - [Pasos para crear una página web](#pasos-para-crear-una-página-web).
 - [Buenas Practicas](#buenas-practicas).
 - [Malas Practicas](#malas-practicas).
 - [Notas importantes](#notas-importantes).
 - [Artículos](#artículos).
+
+## Scroll horizontal con CSS
+```
+CSS
+.container {
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+	scroll-snap-type: x proximity;
+}
+
+.item {
+  scroll-snap-align: center;
+}
+```
 
 ## Pasos para crear una página web
 
@@ -18,6 +33,7 @@
 3. Identificar los **tipos de fuentes** y grosores (bold) que incluiran nuestro proyecto.
 4. Identificar nuestra paleta de colores.
 5. Contruir nuestros sitios web por secciones.
+6. Identificar los elementos y componentes de la estructura del wireframe.
 
 ## Buenas Practicas
 

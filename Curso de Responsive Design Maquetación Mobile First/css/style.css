@@ -398,22 +398,26 @@ header img {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  padding-bottom: 50px;
   color: #757575;
 }
 
 .main-cards-container {
   position: relative;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+	scroll-snap-type: x proximity;
+  padding-top: 50px;
   width: auto;
   height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .main-cards-container .card-plan-container {
   position: inherit;
+  scroll-snap-align: center;
   padding-top: 31px;
+  margin: 0px 8px;
   margin-bottom: 64px;
   min-width: 190px;
   max-width: 223px;
