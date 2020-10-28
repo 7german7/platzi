@@ -1,12 +1,31 @@
 # Apuntes del "Curso de Responsive Design: Maquetación Mobile First"
 
 ## Contenido
+- [Aplicando media queries](#aplicando-media-queries)
 - [Scroll horizontal con CSS](#scroll-horizontal-con-css).
+- [Análisis con Lighthouse](#análisis-con-lighthouse).
 - [Pasos para crear una página web](#pasos-para-crear-una-página-web).
 - [Buenas Practicas](#buenas-practicas).
 - [Malas Practicas](#malas-practicas).
 - [Notas importantes](#notas-importantes).
 - [Artículos](#artículos).
+
+## Aplicando media queries
+
+- **320px** = Smartphones.
+- **480px** = Tablets.
+- **768px** = Laptops.
+- **1024px** = Television.
+
+**NOTA**:
+- [Tipos de media queries](https://vanseodesign.com/web-design/3-breakpoint-types/).
+- [Breackpoints](https://www.youtube.com/watch?v=T-_4YTAfmbA&feature=emb_logo).
+
+**Hacer**:
+
+- `overflow-x: hidden;`, oculta el scroll.
+- Ajustar imagen.
+- Cambiar tamaño de fuente para dispositivos grandes.
 
 ## Scroll horizontal con CSS
 ```
@@ -22,6 +41,17 @@ CSS
 }
 ```
 
+## Análisis con Lighthouse
+
+Lighthouse, es una herramienta que nos permite evaluar nuestras paginas web como:
+
+1. Accesibilidad.
+2. Buenas practicas.
+3. Performance.
+4. Progressive Web App y más.
+
+Se encuentra instalada en el navegador Google Chrome(Dev Tools).
+
 ## Pasos para crear una página web
 
 1. Una vez obtengamos el wireframe, debemos observar detallamente la **arquitectura web del diseño**, con la finalidad de identificar las partes/secciones del sitio web.
@@ -34,6 +64,8 @@ CSS
 4. Identificar nuestra paleta de colores.
 5. Contruir nuestros sitios web por secciones.
 6. Identificar los elementos y componentes de la estructura del wireframe.
+7. Implementar media queries.
+8. Analizar nuestras web con Lighthouse, para obtimizar su funcionamiento.
 
 ## Buenas Practicas
 
@@ -50,6 +82,7 @@ CSS
   - Implementar metodologías de desarrollo ([BEM](http://getbem.com/)).
   - Los textos se deben manejar con medidas responsivas `rem`.
   - Las separaciones entre elementos se recomiendan hacerlas con medidas absolutas `px`.
+  - Iniciar maquetación con mobile first.
 
 ## Malas Practicas
 
