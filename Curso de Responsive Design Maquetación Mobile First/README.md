@@ -21,12 +21,6 @@
 - [Tipos de media queries](https://vanseodesign.com/web-design/3-breakpoint-types/).
 - [Breackpoints](https://www.youtube.com/watch?v=T-_4YTAfmbA&feature=emb_logo).
 
-**Hacer**:
-
-- `overflow-x: hidden;`, oculta el scroll.
-- Ajustar imagen.
-- Cambiar tamaño de fuente para dispositivos grandes.
-
 ## Scroll horizontal con CSS
 ```
 CSS
