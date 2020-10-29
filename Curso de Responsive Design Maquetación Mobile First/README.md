@@ -77,6 +77,7 @@ Se encuentra instalada en el navegador Google Chrome(Dev Tools).
   - Los textos se deben manejar con medidas responsivas `rem`.
   - Las separaciones entre elementos se recomiendan hacerlas con medidas absolutas `px`.
   - Iniciar maquetación con mobile first.
+  - Cuando son muchos iconos, se recomienda agregarlos en formato `.svg`.
 
 ## Malas Practicas
 
