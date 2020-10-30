@@ -5,6 +5,8 @@
 - ### Introducción a JavaScript
   1. [Clase #1 - ¿Qué es JavaScript?](#¿Qué-es-JavaScript?).
   2. [Clase #2 - ¿Por qué JavaScript?](#¿Por-qué-JavaScript?).
+  3. [Clase #3 - Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
+  4. [Clase #3 - Variables](#Variables).
 
 
 ## ¿Qué es JavaScript?
@@ -52,4 +54,40 @@ JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudan
 
 ## Elementos de un Lenguaje de Programación
 
-![Imagen](https://static.platzi.com/media/user_upload/CU01112E_1-f9d2b6fc-f60c-4bf4-a61d-6bf9df36b268.jpg)
+![Imagen](https://static.platzi.com/media/user_upload/CU01112E_1-f9d2b6fc-f60c-4bf4-a61d-6bf9df36b268.jpg).
+
+- `undefined`, preferiblemente evitar su uso debido a que JavaScript los utiliza.
+- `typeof`: Palabra reservada de JS, retorna el tipo de dato.
+
+## Variables
+
+Dentro de JavaScript tenemos tres formas de declarar una variable las cuales son: **var**, **const** y **let**.
+
+1. `Var`: Era la forma en que se declaraban las variables hasta ECMAScript 5. Casi ya no se usa porque es de forma global y tiene las siguientes.
+
+2. `const`: sirve para declarar variables que nunca van a ser modificadas.
+
+3. `Let`: Son variables que pueden ser modificadas, su valor puede cambiar.
+
+## Funciones
+
+Las funciones son las tareas que va a llevar a cabo el navegador. Existen 2 tipos de funciones
+1. Declarativas
+  ```
+  function functionName(parameters){
+    Instruccions
+  }
+  ```
+2. De expresión
+  ```
+  var varName = function(parameters){
+    Instruccions
+  }
+  ```
+Ambas pueden llevar parámetros, que son los datos que necesitan para ejecutarse.
+Cada parámetro va separado por una coma.
+
+**Diferencias**:
+A las funciones declarativas se les aplica hoisting, y a la expresión de función, no. Ya que el hoisting solo se aplica en las palabras reservadas var y function.
+
+Lo que quiere decir que con las funciones declarativas, podemos mandar llamar la función antes de que ésta sea declarada, y con la expresión de función, no, tendríamos que declararla primero, y después mandarla llamar.
