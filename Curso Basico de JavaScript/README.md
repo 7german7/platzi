@@ -8,6 +8,8 @@
   3. [Clase #3 - Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
   4. [Clase #4 - Variables](#Variables).
   5. [Clase #5 - Scope](#Scope).
+  6. [Clase #6 - Hoisting](#Hoisting).
+  7. [Clase #7 - Valores: Truthy y Falsy](#Valores:-Truthy-y-Falsy).
 
 
 ## ¿Qué es JavaScript?
@@ -102,4 +104,48 @@ Existen 2 tipos de scope: `global` y `local`.
 - **Scope global**: Las variables globales son declaradas fuera de toda función o bloque de codigo, éstas pueden ser accedidas desde cualquier lugar de nuestro programa sin importar si las declaramos con `var`, `let` o `const`.
 - **Scope local**: Hace referencia a las variables e instrucciones declaradas dentro de una función, puede acceder a variables globales.
 
-**Referencias**: [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts/blob/master/README.md).
+**Referencias**:
+- [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts/blob/master/README.md).
+- [EL SCOPE en JAVASCRIPT | JS en ESPAÑOL](https://www.youtube.com/watch?v=s-7C09ymzK8).
+
+## Hoisting
+
+**Referencias**:
+
+- [Hoisting](https://www.youtube.com/watch?v=uI6o97A4IrI).
+
+## Coerción
+
+Es la forma en la que podemos cambiar un tipo de valor a otro, existen dos tipos de coerción:
+- **Coerción implícita**: Es cuando el lenguaje nos ayuda a cambiar el tipo de valor.
+- **Coerción explicita**: Es cuando obligamos a que cambie el tipo de valor.
+
+## Valores: Truthy y Falsy
+
+¿Que tipos por default son verdaderos y falsos?
+
+Usamos la función de JS que es Boolean() dentro del paréntesis ponemos el valor y nos dice si el mismo el False o True.
+
+### Falsy
+- Boolean() —> sin ningun valor es false
+- Boolean(0) —> false
+- Boolean(null) —> false
+- Boolean(NaN) —> false // NaN es Not and Number
+- Boolean(Undefined) —> false
+- Boolean(false) —> false
+- Boolean("") —> false
+
+### Truthy
+- Boolean(1) —> true //cualquier numero que no sea igual a cero es true
+- Boolean(“a”) —> true
+- Boolean(" ") —> true // siendo un espacio el valor es true
+- Boolean([]) —> true // un array nos da un true
+- Boolean({}) —> true // un objeto nos da el valor de true
+- Boolean(function() {}) —> true //una funcion tambien es true
+- Boolean(true) —> true
+
+Todo esto lo vamos a usar en condiciones esto valida si es verdadero o falso para ejecutar cierta acción.
+
+**Referencias**:
+- [Mozilla | Falsy](https://developer.mozilla.org/es/docs/Glossary/Falsy).
+- [Mozilla | Truthy](https://developer.mozilla.org/es/docs/Glossary/Truthy).
