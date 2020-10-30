@@ -6,7 +6,8 @@
   1. [Clase #1 - ¿Qué es JavaScript?](#¿Qué-es-JavaScript?).
   2. [Clase #2 - ¿Por qué JavaScript?](#¿Por-qué-JavaScript?).
   3. [Clase #3 - Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
-  4. [Clase #3 - Variables](#Variables).
+  4. [Clase #4 - Variables](#Variables).
+  5. [Clase #5 - Scope](#Scope).
 
 
 ## ¿Qué es JavaScript?
@@ -91,3 +92,14 @@ Cada parámetro va separado por una coma.
 A las funciones declarativas se les aplica hoisting, y a la expresión de función, no. Ya que el hoisting solo se aplica en las palabras reservadas var y function.
 
 Lo que quiere decir que con las funciones declarativas, podemos mandar llamar la función antes de que ésta sea declarada, y con la expresión de función, no, tendríamos que declararla primero, y después mandarla llamar.
+
+## Scope
+
+![Scope](https://www.stevethedev.com/storage/app/uploads/public/5aa/d54/a47/5aad54a47d2e0123286333.png)
+
+Existen 2 tipos de scope: `global` y `local`.
+
+- **Scope global**: Las variables globales son declaradas fuera de toda función o bloque de codigo, éstas pueden ser accedidas desde cualquier lugar de nuestro programa sin importar si las declaramos con `var`, `let` o `const`.
+- **Scope local**: Hace referencia a las variables e instrucciones declaradas dentro de una función, puede acceder a variables globales.
+
+**Referencias**: [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts/blob/master/README.md).
