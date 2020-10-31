@@ -2,20 +2,21 @@
 
 ## Contenido
 
-- ### Introducción a JavaScript
+### Introducción a JavaScript
   1. [Clase #1 - ¿Qué es JavaScript?](#¿Qué-es-JavaScript?).
   2. [Clase #2 - ¿Por qué JavaScript?](#¿Por-qué-JavaScript?).
   3. [Clase #3 - Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
   4. [Clase #4 - Variables](#Variables).
-- ### Bases de JavaScript
+### Bases de JavaScript
   1. [Clase #7 - Scope](#Scope).
   2. [Clase #8 - Hoisting](#Hoisting).
   3. [Clase #10 - Valores: Truthy y Falsy](#Valores:-Truthy-y-Falsy).
   4. [Clase #11 - Operadores](#Operadores).
-
-- ### Objects
+### Objects
   1. [Clase #17 - Objects](#Objects).
   2. [Clase #18 - Función constructora](#Función-constructora).
+### Metodos de Arrays
+  1. [Métodos de recorridos de Arrays](#Métodos-de-recorridos-de-Arrays).
 
 ## ¿Qué es JavaScript?
 
@@ -250,4 +251,20 @@ detallesDelAuto: function () {
 
 ## Función constructora
 
+´´´
+JavaScript
+function Autos(brand, model, year) {
+  this.brand = "Ford";
+  this.model = "Mustang";
+  this.year = 2020
+}
+´´´
+## Métodos de recorridos de Arrays
 
+- map()
+- filter()
+- find()
+- forEach()
+- some()
+
+referencia: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
