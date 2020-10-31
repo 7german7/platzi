@@ -188,53 +188,53 @@ Los arreglos son estructuras de datos, en ellos podemos agregar diferentes tipos
 
 Su sintaxis es la siguiente:
 
-´´´
+```
 JavaScript
 var arreglo = [valor1, valor2, valor3];
-´´´
+```
 
 ## Loops: For y For...of
 
 Nos ayudan a repetir instrucciones `n` veces, su sintaxis en la siguiente:
 
 For:
-´´´
+```
 JavaScript
 for (var i = 0; i < estudiantes.length; i++) {
   instrucciones...
 }
-´´´
+```
 
 For...of:
-´´´
+```
 JavaScript
 for (var estudiante of estudiantes) {
   instrucciones...
 }
-´´´
+```
 
 ## Objects
 
 JS es un lenguaje que está diseñado en un paradigma de objetos.
 
 Ejemplo:
-´´´
+```
 JavaScript
 var miAuto = {
 marca: "Toyota",
 modelo: "Corolla",
 anio: 2020
 }
-´´´
+```
 
 Acceder a una propiedad del objeto:
-´´´
+```
 JavaScript
 miAuto.marca; // "Toyota"
-´´´
+```
 
 Se pueden agregar propiedades que van a ser una función, se les llama métodos de objetos.
-´´´
+```
 JavaScript
 var miAuto = {
 marca: "Toyota",
@@ -246,7 +246,7 @@ detallesDelAuto: function () {
 
 // miAuto.detallesDelAuto();
 //Auto Corolla 2020
-´´´
+```
 
 ## Función constructora
 
