@@ -3,18 +3,18 @@
 ## Contenido
 
 ### Introducción a JavaScript
-  1. [Clase #1 - ¿Qué es JavaScript?](#¿Qué-es-JavaScript?).
-  2. [Clase #2 - ¿Por qué JavaScript?](#¿Por-qué-JavaScript?).
-  3. [Clase #3 - Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
-  4. [Clase #4 - Variables](#Variables).
+  1. [¿Qué es JavaScript?](#¿Qué-es-JavaScript?).
+  2. [¿Por qué JavaScript?](#¿Por-qué-JavaScript?).
+  3. [Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
+  4. [Variables](#Variables).
 ### Bases de JavaScript
-  1. [Clase #7 - Scope](#Scope).
-  2. [Clase #8 - Hoisting](#Hoisting).
-  3. [Clase #10 - Valores: Truthy y Falsy](#Valores:-Truthy-y-Falsy).
-  4. [Clase #11 - Operadores](#Operadores).
+  1. [Scope](#Scope).
+  2. [Hoisting](#Hoisting).
+  3. [Valores: Truthy y Falsy](#Valores:-Truthy-y-Falsy).
+  4. [Operadores](#Operadores).
 ### Objects
-  1. [Clase #17 - Objects](#Objects).
-  2. [Clase #18 - Función constructora](#Función-constructora).
+  1. [Objects](#Objects).
+  2. [Función constructora](#Función-constructora).
 ### Metodos de Arrays
   1. [Métodos de recorridos de Arrays](#Métodos-de-recorridos-de-Arrays).
 
@@ -22,9 +22,9 @@
 
 Es un lenguaje `interpretado`, `orientado a objetos`, `debilmente tipado` y `dinámico`.
 
-- ¿Cómo nace JavaScript?
+- *¿Cómo nace JavaScript?*
   Nace con la necesidad de generar dinamismo en las páginas web y que a su vez los usuarios y las empresas pudieran interactuar unos con otros.
-- Débilmente tipado
+- *Débilmente tipado*
 Se pueden hacer operaciones entre tipos distintos de datos (enteros con strings, booleanos con enteros, etc). Ejemplo:
 
 ```
@@ -34,16 +34,16 @@ Se pueden hacer operaciones entre tipos distintos de datos (enteros con strings,
 false - 3; // -3
 ```
 
-- Dinámico
+- *Dinámico*
 Corre directamente en la etapa de Runetime sin una etapa de compilación previa. Esto permite probar nuestro código inmediatamente; pero también es lo que hace que los errores se muestren hasta que se ejecuta el programa.
 
-- ¿Realmente es Javascript un lenguaje interpretado?
+- *¿Realmente es Javascript un lenguaje interpretado?*
 Si, y la razón es que le navegador lee linea por linea nuestro código el cuál le indica lo que tiene que hacer, sin la necesidad de compilar. Todo esto es controlado por el motor de Javascript V8 del navegador
 
-- Javascript es Basckwards Compatible
+- *Javascript es Basckwards Compatible*
 Todas las funciones nuevas que salen de Javascript no dañarán el trabajo ya hecho, pero no se podrá utilizar en nuestro entorno de trabajo inmediatamente. Para solucionar esto está Babel que permite utilizar las nuevas características del lenguaje pero lo transforma a una versión que el navegador pueda entender.
 
-NOTA: [Comentario](https://platzi.com/comentario/1004606/).
+**NOTA**: [Comentario](https://platzi.com/comentario/1004606/).
 
 ## ¿Por qué JavaScript?
 
@@ -251,14 +251,14 @@ detallesDelAuto: function () {
 
 ## Función constructora
 
-´´´
+```
 JavaScript
 function Autos(brand, model, year) {
   this.brand = "Ford";
   this.model = "Mustang";
   this.year = 2020
 }
-´´´
+```
 ## Métodos de recorridos de Arrays
 
 - map()
