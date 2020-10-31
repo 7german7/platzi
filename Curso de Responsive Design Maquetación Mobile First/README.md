@@ -96,3 +96,7 @@ Se encuentra instalada en el navegador Google Chrome(Dev Tools).
 
 - [JPG to WEBP Compression](https://www.keycdn.com/support/jpg-to-webp).
 - [Background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size).
+
+## Proyecto en Figma
+
+- [Figma | Batatabit](https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit).
