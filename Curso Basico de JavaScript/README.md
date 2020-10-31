@@ -15,6 +15,7 @@
 
 - ### Objects
   1. [Clase #17 - Objects](#Objects).
+  2. [Clase #18 - Función constructora](#Función-constructora).
 
 ## ¿Qué es JavaScript?
 
@@ -246,5 +247,7 @@ detallesDelAuto: function () {
 // miAuto.detallesDelAuto();
 //Auto Corolla 2020
 ´´´
+
+## Función constructora
 
 
