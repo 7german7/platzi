@@ -7,10 +7,14 @@
   2. [Clase #2 - ¿Por qué JavaScript?](#¿Por-qué-JavaScript?).
   3. [Clase #3 - Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
   4. [Clase #4 - Variables](#Variables).
-  5. [Clase #5 - Scope](#Scope).
-  6. [Clase #6 - Hoisting](#Hoisting).
-  7. [Clase #7 - Valores: Truthy y Falsy](#Valores:-Truthy-y-Falsy).
+- ### Bases de JavaScript
+  1. [Clase #7 - Scope](#Scope).
+  2. [Clase #8 - Hoisting](#Hoisting).
+  3. [Clase #10 - Valores: Truthy y Falsy](#Valores:-Truthy-y-Falsy).
+  4. [Clase #11 - Operadores](#Operadores).
 
+- ### Objects
+  1. [Clase #17 - Objects](#Objects).
 
 ## ¿Qué es JavaScript?
 
@@ -124,28 +128,123 @@ Es la forma en la que podemos cambiar un tipo de valor a otro, existen dos tipos
 
 ¿Que tipos por default son verdaderos y falsos?
 
-Usamos la función de JS que es Boolean() dentro del paréntesis ponemos el valor y nos dice si el mismo el False o True.
+Usamos la función de JS que es `Boolean()` dentro del paréntesis ponemos el valor y nos dice si el mismo el `False` o `True`.
 
 ### Falsy
-- Boolean() —> sin ningun valor es false
-- Boolean(0) —> false
-- Boolean(null) —> false
-- Boolean(NaN) —> false // NaN es Not and Number
-- Boolean(Undefined) —> false
-- Boolean(false) —> false
-- Boolean("") —> false
+- `Boolean()` —> sin ningun valor es false
+- `Boolean(0)` —> false
+- `Boolean(null)` —> false
+- `Boolean(NaN)` —> false // NaN es Not and Number
+- `Boolean(Undefined)` —> false
+- `Boolean(false)` —> false
+- `Boolean("")` —> false
 
 ### Truthy
-- Boolean(1) —> true //cualquier numero que no sea igual a cero es true
-- Boolean(“a”) —> true
-- Boolean(" ") —> true // siendo un espacio el valor es true
-- Boolean([]) —> true // un array nos da un true
-- Boolean({}) —> true // un objeto nos da el valor de true
-- Boolean(function() {}) —> true //una funcion tambien es true
-- Boolean(true) —> true
+- `Boolean(1)` —> true //cualquier numero que no sea igual a cero es true
+- `Boolean(“a”)` —> true
+- `Boolean(" ")` —> true // siendo un espacio el valor es true
+- `Boolean([])` —> true // un array nos da un true
+- `Boolean({})` —> true // un objeto nos da el valor de true
+- `Boolean(function() {})` —> true //una funcion tambien es true
+- `Boolean(true)` —> true
 
 Todo esto lo vamos a usar en condiciones esto valida si es verdadero o falso para ejecutar cierta acción.
 
 **Referencias**:
 - [Mozilla | Falsy](https://developer.mozilla.org/es/docs/Glossary/Falsy).
 - [Mozilla | Truthy](https://developer.mozilla.org/es/docs/Glossary/Truthy).
+
+## Operadores
+### Operador de Asignación
+- `=`	operador de asignacion
+### Operadores de Comparación
+- `==`	igual que
+- `===`	estrictamente igual que
+- `>` or `>=` or `>==`	mayor o mayor igual que
+- `<` or <= or <==	menor o menor igual que
+- `!=` or `!==`	diferente que
+### Operadores Aritméticos
+- `+`	operador suma este se utiliza para concatener dos cadenas de texto.
+- `-`	operador resta
+- `*`	operador de multicacion
+- `/`	operador de division
+- `%`	operador de modulo
+- `**`	operador de potenciacion
+tambien se les conoce como operadores binarios. por que toman dos valores y generan un resultado.
+
+### Operadores logicos
+- `!`	NOT niega un valor
+- `&&`	AND
+- `||`	OR
+
+Referencias:
+
+- [Mozilla | Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators).
+
+## Arrays
+
+Los arreglos son estructuras de datos, en ellos podemos agregar diferentes tipos de datos dentro de otro.
+
+Su sintaxis es la siguiente:
+
+´´´
+JavaScript
+var arreglo = [valor1, valor2, valor3];
+´´´
+
+## Loops: For y For...of
+
+Nos ayudan a repetir instrucciones `n` veces, su sintaxis en la siguiente:
+
+For:
+´´´
+JavaScript
+for (var i = 0; i < estudiantes.length; i++) {
+  instrucciones...
+}
+´´´
+
+For...of:
+´´´
+JavaScript
+for (var estudiante of estudiantes) {
+  instrucciones...
+}
+´´´
+
+## Objects
+
+JS es un lenguaje que está diseñado en un paradigma de objetos.
+
+Ejemplo:
+´´´
+JavaScript
+var miAuto = {
+marca: "Toyota",
+modelo: "Corolla",
+anio: 2020
+}
+´´´
+
+Acceder a una propiedad del objeto:
+´´´
+JavaScript
+miAuto.marca; // "Toyota"
+´´´
+
+Se pueden agregar propiedades que van a ser una función, se les llama métodos de objetos.
+´´´
+JavaScript
+var miAuto = {
+marca: "Toyota",
+modelo: "Corolla",
+anio: 2020, 
+detallesDelAuto: function () {
+	console.log(`Auto ${this.modelo} ${this.anio}`);
+}
+
+// miAuto.detallesDelAuto();
+//Auto Corolla 2020
+´´´
+
+
