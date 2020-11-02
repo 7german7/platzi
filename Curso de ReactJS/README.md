@@ -80,7 +80,8 @@ JSX tiene su alternativa que es **React.createElement** pero es preferible JSX p
   React.createElement(
     ‘a’,
     { href: ‘https://platzi.com’ },
-    ‘Ir a Platzi’);
+    ‘Ir a Platzi’
+  );
   ```
 
 En JSX se utilizan las llaves para introducir variables o expresiones de Javascript. Lo que sea que esté adentro se va a evaluar y su resultado se mostrará en pantalla.
