@@ -77,7 +77,10 @@ JSX tiene su alternativa que es **React.createElement** pero es preferible JSX p
 - y el children que es el contenido.
   Ejemplo:
   ```
-  React.createElement(‘a’, { href: ‘https://platzi.com’ }, ‘Ir a Platzi’);
+  React.createElement(
+    ‘a’,
+    { href: ‘https://platzi.com’ },
+    ‘Ir a Platzi’);
   ```
 
 En JSX se utilizan las llaves para introducir variables o expresiones de Javascript. Lo que sea que esté adentro se va a evaluar y su resultado se mostrará en pantalla.
