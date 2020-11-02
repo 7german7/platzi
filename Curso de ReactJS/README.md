@@ -106,6 +106,20 @@ Los componentes serán barras de búsquedas, enlaces, encabezados, el header, et
 
 [Volver Arriba](#Contenido).
 
+## Ciclo de vida de los componentes
+
+![Ciclo de vida](https://www.groloop.com/wp-content/uploads/2019/03/diagrama-ciclo-de-vida.png).
+
+Los componentes en React tienen vida; nacen, crecen y desaparecen.
+
+El ciclo de vida de los componentes tiene **3 fases**:
+
+1. **El Montaje** es cuando los usuarios llegan a nuestra aplicación, cuando tienen su 1era interacción con él, `componentDidMount()`.
+2. **La Actualización**, es cuando se ejecuta el render, generando el nuevo DOM, es cuando React manda una señal de actualización `componentDidUpdate()`.
+3. **Eliminación** de los componentes, al entrar a otra página, varios componentes no estarán en ella, React manda la señal `componentWIllUnmount()`, seguido de la eliminación del código en el DOM.
+
+[Volver Arriba](#Contenido).
+
 ## Web
 
 - [Español](https://es.reactjs.org/).
