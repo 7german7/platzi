@@ -99,6 +99,7 @@ Las expresiones pueden ser llamadas a otras funciones, cálculos matemáticos, e
 Los componentes en React son bloques de construcción.
 Las aplicaciones hechas con React son como figuras de Lego. Junta varias piezas (componentes) y puedes construir un website tan pequeño o tan grande como quieras.
 Los componentes serán barras de búsquedas, enlaces, encabezados, el header, etc.
+
 **Identificar componentes es una habilidad esencial para poder desarrollar aplicaciones de React.**
 
 [Volver Arriba](#Contenido).
