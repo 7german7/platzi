@@ -96,6 +96,8 @@ Las expresiones pueden ser llamadas a otras funciones, cálculos matemáticos, e
 
 ## Componentes
 
+![Componentes](https://www.techdiagonal.com/wp-content/uploads/2019/08/React-components-blog-image.jpg).
+
 Los componentes en React son bloques de construcción.
 Las aplicaciones hechas con React son como figuras de Lego. Junta varias piezas (componentes) y puedes construir un website tan pequeño o tan grande como quieras.
 Los componentes serán barras de búsquedas, enlaces, encabezados, el header, etc.
