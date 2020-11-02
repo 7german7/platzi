@@ -6,7 +6,7 @@
 
 ### Introducción
 
-- [¿Que es React.js?](#¿Que-es-React.js?).
+- [Definición](#Definición).
 - [Herramientas](#Herramientas).
 - [Create-react-app](#Create-react-app).
 
@@ -17,9 +17,9 @@
 
 ### Creación y Diseño de Componentes
 
-- [¿Qué es un componente?](#¿Qué-es-un-componente?).
+- [Componentes](#Componentes?).
 
-## ¿Que es React.js?
+## Definición
 
 Cumple su función como biblioteca ya que para utilizar su código se debe importar. También es un Framework aunque las convenciones de cómo debe ser organizado todo no son estrictas. React está estructurado por componentes que son como pequeños bloques de lego que al ser unidos forman aplicaciones de React. Estos componentes pueden tener estilos, ser enlazados a eventos y sus estados pueden ser modificados.
 Con React también se tiene la ventaja de que será escrito una sola vez y podrá ser utilizado en aplicaciones web, móviles, entre otras.
@@ -94,7 +94,7 @@ Las expresiones pueden ser llamadas a otras funciones, cálculos matemáticos, e
 
 [Volver Arriba](#Contenido).
 
-## ¿Qué es un componente?
+## Componentes
 
 Los componentes en React son bloques de construcción.
 Las aplicaciones hechas con React son como figuras de Lego. Junta varias piezas (componentes) y puedes construir un website tan pequeño o tan grande como quieras.
