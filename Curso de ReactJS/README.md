@@ -120,6 +120,28 @@ El ciclo de vida de los componentes tiene **3 fases**:
 
 [Volver Arriba](#Contenido).
 
+## Nuestro primer componente
+
+- Nuestros componentes son clases.
+- Debemos guardarlos en `./components`.
+- Debemos importar nuestros `componentes/clases` desde nuestro archivo `index.js`.
+- Sintaxis basica de un componente:
+
+```
+import React from 'react';
+
+class Badge extends React.Component {
+  render(){
+    return <h1>Badge</h1>;
+  }
+}
+
+export default Badge; // para poder importarlo desde index.js
+
+```
+
+- React.js también nos permite reutilizar imágenes ya que estas son cargadas poro el DOM asignandoles una URL y un hash para ser reutilizadas en diferentes partes de nuestra aplicación.
+
 ## Web
 
 - [Español](https://es.reactjs.org/).
