@@ -13,6 +13,11 @@
 - [Comparaciones](#Comparaciones).
 - [Parametros como referencia y como valor](#Parametros-como-referencia-y-como-valor).
 - [Arrow functions](#Arrow-functions).
+- [Clases](#Clases).
+- [Modificando un prototipo](#Modificando-un-prototipo).
+- [El contexto de las funciones: quién es this](El-contexto-de-las-funciones:-quién-es-this).
+- [Clases en ECMAScript 6](#Clases-en-ECMAScript-6).
+- [Herencia](#Herencia).
 
 ## Variables
 
@@ -258,6 +263,87 @@ var mensaje = "Bienvenido";
 var myFunction = (mensaje) => { mensaje; };
 
 myFunction(mensaje);
+```
+
+- [Subir](#Contenido).
+
+## Clases
+
+- Hablar de objetos en javascript es hablar de _prototipos_.
+- `this` hace referencia al nuevo objeto que se acaba de crear.
+- la función que define al prototipo retorna implícitamente _this_, es decir que por defecto _retorna_ el nuevo objeto que se creo.
+- La palabra reservada `new` se utiliza para crear un nuevo objeto con el prototipo indicado.
+
+**Sintaxis**:
+
+```
+function Class() {
+  propertiy: value;
+}
+
+Class.prototype.method = function() = {
+  code...
+};
+```
+
+- [Subir](#Contenido).
+
+## Modificando un prototipo
+
+El prototipo es un objeto más de JS , a partir de que lo modifiquemos, éste va a quedar modificado.
+
+Es de mucha importancia donde colocamos las funciones que va a tener el prototipo . Estos se deben de colocar juntos, ya que con ellos se va creando el prototipo del objeto, y deseamos que tenga juntas todas sus funciones.
+
+Por ello definimos los prototipos arriba, y los utilizamos a lo largo del código.
+
+**NOTA**: Cuando tenemos un error en JS, éste no se sigue ejecutando, se corta ahí la ejecución del código.
+
+- [Subir](#Contenido).
+
+## El contexto de las funciones: quién es this
+
+`debugger`: nos permite observar las propiedades de cada objeto en la consola de Javascript("deveveloper tools").
+
+**this**:
+
+- Cuando definimos un `prototype` con `=>`, `this` = `window`, por lo cual no podriamos acceder a las propiedades de nuestros objetos creados con nuestra clase.
+- Por lo tanto, cuando definimos un `prototype` debemos hacerlo con `function`.
+
+- [Subir](#Contenido).
+
+## Clases en ECMAScript 6
+
+A partir del 2015 la actualizacion de Javascript _ECMAScript 6_, nos permite crear clases al igual que otros lennguajes de programacion.
+
+**Sintaxis**:
+
+```
+class Name {
+  constructor(parameters) {
+    this.property = value;
+  }
+}
+```
+
+- [Subir](#Contenido).
+
+# Herencia]
+
+**Sintaxis**:
+
+```
+class Father {
+  constructor(parameters) {
+    this.property = value;
+  }
+}
+
+class Son extends Father {
+  constructor(parameters) {
+    super(parameters); //Father properties
+    this.sonProperty = value;
+  }
+}
 ```
 
 - [Subir](#Contenido).
