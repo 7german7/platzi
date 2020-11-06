@@ -4,10 +4,10 @@ class Person {
     this.lastName = " ";
     this.age = " ";
   }
-  setPerson(name, lastName, age) {
-    this.name = name;
-    this.lastName = lastName;
-    this.age = age;
+  setPerson() {
+    this.name = prompt("Nombre: ");
+    this.lastName = prompt("Apellido: ");
+    this.age = parseInt( prompt("Edad: ") );
   }
   getPerson() {
     return {
