@@ -5,17 +5,17 @@
 ## Contenido
 
 - [Variables](#Variables).
-- [Variables: Strings](#Variables:-Strings).
+- [Variables: Strings](#Variables-Strings).
 - [Numeros](#Numeros).
 - [Funciones](#Funciones).
-- [Funciones: Alcance](#Funciones:-Alcance).
+- [Funciones: Alcance](#Funciones-Alcance).
 - [Objetos](#Objetos).
 - [Comparaciones](#Comparaciones).
 - [Parametros como referencia y como valor](#Parametros-como-referencia-y-como-valor).
 - [Arrow functions](#Arrow-functions).
 - [Clases](#Clases).
 - [Modificando un prototipo](#Modificando-un-prototipo).
-- [El contexto de las funciones: quién es this](El-contexto-de-las-funciones:-quién-es-this).
+- [El contexto de las funciones: quién es this](El-contexto-de-las-funciones-quién-es-this).
 - [Clases en ECMAScript 6](#Clases-en-ECMAScript-6).
 - [Herencia](#Herencia).
 
@@ -46,7 +46,7 @@ false - 3; // -3
 
 - [Subir](#Contenido).
 
-## Variables: Strings
+## Variables Strings
 
 En Javascript, para definir un tipo de dato string(cadena de texto) solo debemos encerrarlos entre comillas(`"texto1"` o `'texto2'`). Algunos metodos son los siguientes:
 
@@ -112,7 +112,7 @@ Las funciones en Javascript tienen ciertas diferencias comparadas con las de otr
 
 - [Subir](#Contenido).
 
-## Funciones: Alcance
+## Funciones Alcance
 
 **Variables Globales**: Son las que se declaran fuera del todo. Estas pueden ser accedidas por funciones y se pueden acceder a ellas de forma mas especifica de la siguiente manera: `window.variable`.
 **Variables Locales**: Son las que se declaran dentro de las funciones y solo pueden ser manipuladas por las mismas.
@@ -300,7 +300,7 @@ Por ello definimos los prototipos arriba, y los utilizamos a lo largo del códig
 
 - [Subir](#Contenido).
 
-## El contexto de las funciones: quién es this
+## El contexto de las funciones quién es this
 
 `debugger`: nos permite observar las propiedades de cada objeto en la consola de Javascript("deveveloper tools").
 
