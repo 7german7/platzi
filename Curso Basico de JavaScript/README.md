@@ -25,7 +25,7 @@
 
 1. [Métodos de recorridos de Arrays](#Métodos-de-recorridos-de-Arrays).
 
-## ¿Que es JavaScript?
+## Que es JavaScript?
 
 Es un lenguaje `interpretado`, `orientado a objetos`, `debilmente tipado` y `dinámico`.
 
@@ -52,7 +52,7 @@ false - 3; // -3
 
 **NOTA**: [Comentario](https://platzi.com/comentario/1004606/).
 
-## ¿Por que JavaScript?
+## Por que JavaScript?
 
 JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudando a generar diferentes cosas.
 
