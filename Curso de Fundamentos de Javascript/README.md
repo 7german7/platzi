@@ -394,6 +394,24 @@ En principio, cualquier tarea que se haya delegado al navegador a través de un 
 
 - [Subir](#Contenido).
 
+## Adicional
+
+### jQuery: crossDomain
+
+En general, un request Ajax a un dominio diferente del que estás visitando en este momento es bloqueado por el navegador por motivos de seguridad. Esto se llama Same Origin Policy o SOP.
+
+El servidor puede configurarse para que reciba requests de dominios diferentes al propio con una funcionalidad llamada Cross Origin Resource Sharing o CORS.
+
+Con esta línea, le estamos indicando al navegador que queremos hacer un request a un dominio diferente del nuestro, y si el servidor lo permite, el request termina como lo esperas.
+
+Según la documentación de JQuery (https://api.jquery.com/jquery.ajax/), el valor se pone por defecto en true si vas a hacer una petición a otro dominio, por lo que esta línea no es realmente necesaria para que funcione pero hace más claro que el recurso que se va a consultar no está en el mismo dominio.
+
+Te dejo la parte relevante de la documentación por si te da curiosidad:
+
+crossDomain (default: false for same-domain requests, true for cross-domain requests)
+Type: Boolean
+If you wish to force a crossDomain request (such as JSONP) on the same domain, set the value of crossDomain to true. This allows, for example, server-side redirection to another domain. (version added: 1.5)
+
 ## Repositorio de Github
 
 - [Aqui](https://github.com/platzi/FundamentosJSCurso).
