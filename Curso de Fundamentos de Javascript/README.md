@@ -18,6 +18,7 @@
 - [El contexto de las funciones: quién es this](El-contexto-de-las-funciones-quién-es-this).
 - [Clases en ECMAScript 6](#Clases-en-ECMAScript-6).
 - [Herencia](#Herencia).
+- [Funciones como parámetros](#Funciones-como-parámetros).
 
 ## Variables
 
@@ -345,6 +346,10 @@ class Son extends Father {
   }
 }
 ```
+
+- [Subir](#Contenido).
+
+## Funciones como parámetros
 
 - [Subir](#Contenido).
 

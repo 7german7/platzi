@@ -3,29 +3,36 @@
 ## Contenido
 
 ### Introducción a JavaScript
-  1. [¿Qué es JavaScript?](#¿Qué-es-JavaScript?).
-  2. [¿Por qué JavaScript?](#¿Por-qué-JavaScript?).
-  3. [Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
-  4. [Variables](#Variables).
-### Bases de JavaScript
-  1. [Scope](#Scope).
-  2. [Hoisting](#Hoisting).
-  3. [Valores: Truthy y Falsy](#Valores:-Truthy-y-Falsy).
-  4. [Operadores](#Operadores).
-### Objects
-  1. [Objects](#Objects).
-  2. [Función constructora](#Función-constructora).
-### Metodos de Arrays
-  1. [Métodos de recorridos de Arrays](#Métodos-de-recorridos-de-Arrays).
 
-## ¿Qué es JavaScript?
+1. [¿Qué es JavaScript?](#Qué-es-JavaScript?).
+2. [¿Por qué JavaScript?](#Por-qué-JavaScript?).
+3. [Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
+4. [Variables](#Variables).
+
+### Bases de JavaScript
+
+1. [Scope](#Scope).
+2. [Hoisting](#Hoisting).
+3. [Valores: Truthy y Falsy](#Valores-Truthy-y-Falsy).
+4. [Operadores](#Operadores).
+
+### Objects
+
+1. [Objects](#Objects).
+2. [Función constructora](#Función-constructora).
+
+### Metodos de Arrays
+
+1. [Métodos de recorridos de Arrays](#Métodos-de-recorridos-de-Arrays).
+
+## Qué es JavaScript?
 
 Es un lenguaje `interpretado`, `orientado a objetos`, `debilmente tipado` y `dinámico`.
 
-- *¿Cómo nace JavaScript?*
+- _¿Cómo nace JavaScript?_
   Nace con la necesidad de generar dinamismo en las páginas web y que a su vez los usuarios y las empresas pudieran interactuar unos con otros.
-- *Débilmente tipado*
-Se pueden hacer operaciones entre tipos distintos de datos (enteros con strings, booleanos con enteros, etc). Ejemplo:
+- _Débilmente tipado_
+  Se pueden hacer operaciones entre tipos distintos de datos (enteros con strings, booleanos con enteros, etc). Ejemplo:
 
 ```
 4 + "7"; // 47
@@ -34,32 +41,32 @@ Se pueden hacer operaciones entre tipos distintos de datos (enteros con strings,
 false - 3; // -3
 ```
 
-- *Dinámico*
-Corre directamente en la etapa de Runetime sin una etapa de compilación previa. Esto permite probar nuestro código inmediatamente; pero también es lo que hace que los errores se muestren hasta que se ejecuta el programa.
+- _Dinámico_
+  Corre directamente en la etapa de Runetime sin una etapa de compilación previa. Esto permite probar nuestro código inmediatamente; pero también es lo que hace que los errores se muestren hasta que se ejecuta el programa.
 
-- *¿Realmente es Javascript un lenguaje interpretado?*
-Si, y la razón es que le navegador lee linea por linea nuestro código el cuál le indica lo que tiene que hacer, sin la necesidad de compilar. Todo esto es controlado por el motor de Javascript V8 del navegador
+- _¿Realmente es Javascript un lenguaje interpretado?_
+  Si, y la razón es que le navegador lee linea por linea nuestro código el cuál le indica lo que tiene que hacer, sin la necesidad de compilar. Todo esto es controlado por el motor de Javascript V8 del navegador
 
-- *Javascript es Basckwards Compatible*
-Todas las funciones nuevas que salen de Javascript no dañarán el trabajo ya hecho, pero no se podrá utilizar en nuestro entorno de trabajo inmediatamente. Para solucionar esto está Babel que permite utilizar las nuevas características del lenguaje pero lo transforma a una versión que el navegador pueda entender.
+- _Javascript es Basckwards Compatible_
+  Todas las funciones nuevas que salen de Javascript no dañarán el trabajo ya hecho, pero no se podrá utilizar en nuestro entorno de trabajo inmediatamente. Para solucionar esto está Babel que permite utilizar las nuevas características del lenguaje pero lo transforma a una versión que el navegador pueda entender.
 
 **NOTA**: [Comentario](https://platzi.com/comentario/1004606/).
 
-## ¿Por qué JavaScript?
+## Por qué JavaScript?
 
 JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudando a generar diferentes cosas.
 
-- Si solo estuvieras interesado en trabajar **aplicaciones web** tienes muchos *frameworks* y librerías construidas en JavaScript que te van a ayudar a hacer proyectos de forma mucho mas rápida, eficiente y robusta (**Angular**, **Vue**, **React**,entre otros)
+- Si solo estuvieras interesado en trabajar **aplicaciones web** tienes muchos _frameworks_ y librerías construidas en JavaScript que te van a ayudar a hacer proyectos de forma mucho mas rápida, eficiente y robusta (**Angular**, **Vue**, **React**,entre otros)
 
-- Si no quieres trabajar solo en aplicaciones Web puedes utilizar JavaScript con un *framework* que se llama **React Native** para poder construir aplicaciones nativas como **Android** y **IOS**.
+- Si no quieres trabajar solo en aplicaciones Web puedes utilizar JavaScript con un _framework_ que se llama **React Native** para poder construir aplicaciones nativas como **Android** y **IOS**.
 
 - Puedes construir aplicaciones de escritorio con JavaScript, usando un **framework** llamado **Electron**, pueden correr en **Mac** o **Windows**.
 
-- También puedes trabajar en la parte del Back-end o **IOT**(Internet Od Things) es un concepto que se refiere a una interconexion digital de objetos cotidianos con Internet. Esto con un *Framework* llamado **NodeJS**, el cual es un entorno de ejecución de JavaScript que corre directamente en el Back-end.
+- También puedes trabajar en la parte del Back-end o **IOT**(Internet Od Things) es un concepto que se refiere a una interconexion digital de objetos cotidianos con Internet. Esto con un _Framework_ llamado **NodeJS**, el cual es un entorno de ejecución de JavaScript que corre directamente en el Back-end.
 
 - **WebAssembly**: Es un nuevo tipo de código que puede ser ejecutado en navegadores modernos es un lenguaje de bajo nivel, similar al lenguaje ensamblador, con un formato binario compacto que se ejecuta con rendimiento casi nativo y provee un objetivo de compilación para lenguajes como C/C++ y Rust que les permite correr en la web. También está diseñado para correr a la par de JavaScript, permitiendo que ambos trabajen juntos.
 
-**Seguridad Web**: *OAuth*, *OWASP* (fundación que se esfuerza por ayudar a mejorar la seguridad en la web).
+**Seguridad Web**: _OAuth_, _OWASP_ (fundación que se esfuerza por ayudar a mejorar la seguridad en la web).
 
 ## Elementos de un Lenguaje de Programación
 
@@ -81,18 +88,23 @@ Dentro de JavaScript tenemos tres formas de declarar una variable las cuales son
 ## Funciones
 
 Las funciones son las tareas que va a llevar a cabo el navegador. Existen 2 tipos de funciones
+
 1. Declarativas
-  ```
-  function functionName(parameters){
-    Instruccions
-  }
-  ```
+
+```
+function functionName(parameters){
+  Instruccions
+}
+```
+
 2. De expresión
-  ```
-  var varName = function(parameters){
-    Instruccions
-  }
-  ```
+
+```
+var varName = function(parameters){
+  Instruccions
+}
+```
+
 Ambas pueden llevar parámetros, que son los datos que necesitan para ejecutarse.
 Cada parámetro va separado por una coma.
 
@@ -111,6 +123,7 @@ Existen 2 tipos de scope: `global` y `local`.
 - **Scope local**: Hace referencia a las variables e instrucciones declaradas dentro de una función, puede acceder a variables globales.
 
 **Referencias**:
+
 - [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts/blob/master/README.md).
 - [EL SCOPE en JAVASCRIPT | JS en ESPAÑOL](https://www.youtube.com/watch?v=s-7C09ymzK8).
 
@@ -123,16 +136,18 @@ Existen 2 tipos de scope: `global` y `local`.
 ## Coerción
 
 Es la forma en la que podemos cambiar un tipo de valor a otro, existen dos tipos de coerción:
+
 - **Coerción implícita**: Es cuando el lenguaje nos ayuda a cambiar el tipo de valor.
 - **Coerción explicita**: Es cuando obligamos a que cambie el tipo de valor.
 
-## Valores: Truthy y Falsy
+## Valores Truthy y Falsy
 
 ¿Que tipos por default son verdaderos y falsos?
 
 Usamos la función de JS que es `Boolean()` dentro del paréntesis ponemos el valor y nos dice si el mismo el `False` o `True`.
 
 ### Falsy
+
 - `Boolean()` —> sin ningun valor es false
 - `Boolean(0)` —> false
 - `Boolean(null)` —> false
@@ -142,6 +157,7 @@ Usamos la función de JS que es `Boolean()` dentro del paréntesis ponemos el va
 - `Boolean("")` —> false
 
 ### Truthy
+
 - `Boolean(1)` —> true //cualquier numero que no sea igual a cero es true
 - `Boolean(“a”)` —> true
 - `Boolean(" ")` —> true // siendo un espacio el valor es true
@@ -153,31 +169,39 @@ Usamos la función de JS que es `Boolean()` dentro del paréntesis ponemos el va
 Todo esto lo vamos a usar en condiciones esto valida si es verdadero o falso para ejecutar cierta acción.
 
 **Referencias**:
+
 - [Mozilla | Falsy](https://developer.mozilla.org/es/docs/Glossary/Falsy).
 - [Mozilla | Truthy](https://developer.mozilla.org/es/docs/Glossary/Truthy).
 
 ## Operadores
+
 ### Operador de Asignación
-- `=`	operador de asignacion
+
+- `=` operador de asignacion
+
 ### Operadores de Comparación
-- `==`	igual que
-- `===`	estrictamente igual que
-- `>` or `>=` or `>==`	mayor o mayor igual que
-- `<` or <= or <==	menor o menor igual que
-- `!=` or `!==`	diferente que
+
+- `==` igual que
+- `===` estrictamente igual que
+- `>` or `>=` or `>==` mayor o mayor igual que
+- `<` or <= or <== menor o menor igual que
+- `!=` or `!==` diferente que
+
 ### Operadores Aritméticos
-- `+`	operador suma este se utiliza para concatener dos cadenas de texto.
-- `-`	operador resta
-- `*`	operador de multicacion
-- `/`	operador de division
-- `%`	operador de modulo
-- `**`	operador de potenciacion
-tambien se les conoce como operadores binarios. por que toman dos valores y generan un resultado.
+
+- `+` operador suma este se utiliza para concatener dos cadenas de texto.
+- `-` operador resta
+- `*` operador de multicacion
+- `/` operador de division
+- `%` operador de modulo
+- `**` operador de potenciacion
+  tambien se les conoce como operadores binarios. por que toman dos valores y generan un resultado.
 
 ### Operadores logicos
-- `!`	NOT niega un valor
-- `&&`	AND
-- `||`	OR
+
+- `!` NOT niega un valor
+- `&&` AND
+- `||` OR
 
 Referencias:
 
@@ -199,6 +223,7 @@ var arreglo = [valor1, valor2, valor3];
 Nos ayudan a repetir instrucciones `n` veces, su sintaxis en la siguiente:
 
 For:
+
 ```
 JavaScript
 for (var i = 0; i < estudiantes.length; i++) {
@@ -207,6 +232,7 @@ for (var i = 0; i < estudiantes.length; i++) {
 ```
 
 For...of:
+
 ```
 JavaScript
 for (var estudiante of estudiantes) {
@@ -219,6 +245,7 @@ for (var estudiante of estudiantes) {
 JS es un lenguaje que está diseñado en un paradigma de objetos.
 
 Ejemplo:
+
 ```
 JavaScript
 var miAuto = {
@@ -229,18 +256,20 @@ anio: 2020
 ```
 
 Acceder a una propiedad del objeto:
+
 ```
 JavaScript
 miAuto.marca; // "Toyota"
 ```
 
 Se pueden agregar propiedades que van a ser una función, se les llama métodos de objetos.
+
 ```
 JavaScript
 var miAuto = {
 marca: "Toyota",
 modelo: "Corolla",
-anio: 2020, 
+anio: 2020,
 detallesDelAuto: function () {
 	console.log(`Auto ${this.modelo} ${this.anio}`);
 }
@@ -259,6 +288,7 @@ function Autos(brand, model, year) {
   this.year = 2020
 }
 ```
+
 ## Métodos de recorridos de Arrays
 
 - map()
