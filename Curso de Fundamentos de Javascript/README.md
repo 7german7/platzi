@@ -19,6 +19,8 @@
 - [Clases en ECMAScript 6](#Clases-en-ECMAScript-6).
 - [Herencia](#Herencia).
 - [Funciones como parámetros](#Funciones-como-parámetros).
+- [Asincronismo](#Asincronismo).
+- [Cómo funciona el tiempo en JavaScript](#Cómo-funciona-el-tiempo-en-JavaScript).
 
 ## Variables
 
@@ -350,6 +352,45 @@ class Son extends Father {
 - [Subir](#Contenido).
 
 ## Funciones como parámetros
+
+Javascript nos permite enviar las funciones en si como parametros, un ejemplo sencillo seria el siguiente:
+
+```
+function sayHello() {
+  console.log("Hello World");
+}
+
+function show(fn) {
+  fn(); // Llamada de la funcion 'sayHello()'
+  console.log("Hola Mundo");
+}
+
+show(sayHello);
+```
+
+- [Subir](#Contenido).
+
+## Asincronismo
+
+- Javascript solo puede hacer una cosa a la vez, ya que **no es multitarea**.
+- Puede delegar las ciertas funciones a otros procesos, este modelo de concurrencia se llama **event loop**.
+- Javascript tiene algo llamado `callstack`, donde coloca las llamadas de funciones segun el orden de ejecucion de nuestro programa.
+- Cuando Javascript delega un proceso al navegador, se le llama `callback`, mientras que el `callback` se ejecuta, Javascript continuara con sus instrucciones, cuando reciba respuesta del servidor, Javascript colocara esta respuesta en la **cola de tareas** (**tareas**: peticiones a servidores, interacciones visuales, la navegacion client-side).
+- Solo hasta que el programa se quede sin funciones en la pila de instrucciones es cuando ejecutara las instrucciones de la cola de tareas.
+- Hay que tener cuidado en no generar un cuello de botella en la pila de ejecucion.
+- NO BLOQUEAR EL **EVENT LOOP**.
+
+**NOTA**:
+
+- Un `callback`, se genera cuando pasamos una funcion como parametro, y al momento de hacer esto debemos tomar en cuenta que debemos colocar el nombre de nuestro parametro sin parentesis, o tambien podriamos colocar toda la funcion en si.
+
+- [Subir](#Contenido).
+
+## Cómo funciona el tiempo en JavaScript
+
+![el tiempo en JavaScript](https://static.platzi.com/media/user_upload/Event%20Loop-533432a6-81a5-4fcf-a801-b637b0848590.jpg).
+
+En principio, cualquier tarea que se haya delegado al navegador a través de un callback, deberá esperar hasta que todas las instrucciones del programa principal se hayan ejecutado. Por esta razón el tiempo de espera definido en funciones como setTimeout, no garantizan que el callback se ejecute en ese tiempo exactamente, sino en cualquier momento a partir de allí, sólo cuando la cola de tareas se haya vaciado.
 
 - [Subir](#Contenido).
 
