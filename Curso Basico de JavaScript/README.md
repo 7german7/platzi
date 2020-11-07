@@ -4,8 +4,8 @@
 
 ### Introducción a JavaScript
 
-1. [¿Qué es JavaScript?](#Que-es-JavaScript?).
-2. [¿Por qué JavaScript?](#Por-que-JavaScript?).
+1. [Que es JavaScript?](#Que-es-Javascript?).
+2. [Por que JavaScript?](#Por-que-Javascript?).
 3. [Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
 4. [Variables](#Variables).
 
