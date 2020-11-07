@@ -4,8 +4,8 @@
 
 ### Introducción a JavaScript
 
-1. [Que es JavaScript?](#Que-es-Javascript?).
-2. [Por que JavaScript?](#Por-que-Javascript?).
+1. [Que es Javascript?](#Que-es-Javascript?).
+2. [Por que Javascript?](#Por-que-Javascript?).
 3. [Elementos de un Lenguaje de Programación](#Elementos-de-un-Lenguaje-de-Programación).
 4. [Variables](#Variables).
 
@@ -25,7 +25,7 @@
 
 1. [Métodos de recorridos de Arrays](#Métodos-de-recorridos-de-Arrays).
 
-## Que es JavaScript?
+## Que es Javascript?
 
 Es un lenguaje `interpretado`, `orientado a objetos`, `debilmente tipado` y `dinámico`.
 
@@ -52,7 +52,7 @@ false - 3; // -3
 
 **NOTA**: [Comentario](https://platzi.com/comentario/1004606/).
 
-## Por que JavaScript?
+## Por que Javascript?
 
 JavaScript tiene una comunidad enorme de desarrolladores que te pueden ir ayudando a generar diferentes cosas.
 
