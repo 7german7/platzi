@@ -9,12 +9,10 @@ const onPeopleResponse = function(data) {
 
 function getPeople(id) {
   const PERSON_URL = `${API_URL}${PEOPLE_URL.replace("id", id)}`;
-  $.get(PERSON_URL, {crossDomain: true}, onPeopleResponse);
+  $.get(PERSON_URL, {"crossDomain": true}, onPeopleResponse);
 }
 
-for (let i = 0; i < 14; i++) {
+/*con este ejemplo podemos observar que las peticiones HTTP realizadas por el metodo $.get() de jQuery, nunca llegan en el orden de secuencia que esperamos*/
+for (let i = 1; i < 15; i++) {
   getPeople(i);
 }
-
-
-

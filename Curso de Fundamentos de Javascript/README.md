@@ -21,6 +21,7 @@
 - [Funciones como parámetros](#Funciones-como-parámetros).
 - [Asincronismo](#Asincronismo).
 - [Cómo funciona el tiempo en JavaScript](#Cómo-funciona-el-tiempo-en-JavaScript).
+- [Promesas](#Promesas).
 
 ## Variables
 
@@ -394,6 +395,18 @@ En principio, cualquier tarea que se haya delegado al navegador a través de un 
 
 - [Subir](#Contenido).
 
+## Promesas
+
+- **Bluwer**: libreria externa para manipular `callbacks`.
+
+- Las promesas nos permiten manejar de una mejor manera nuestros `callbacks`, actualmente estan siendo soportadas por la mayoria de los navegadores web.
+- Para asegurarnos de que nuestros programas funcionen de forma correcta utilizando promesas, podriamos implementar `polifield`, lo cual detecta si el navegador web soporta las `promesas` o no, de ser negativo este nos ayuda a crear la clase de las promesas por nosotros.
+- **Recursos**:
+
+- [Promesas | Platzi PDF](https://static.platzi.com/media/public/uploads/promesas_e7100aa0-540e-4d37-83fc-113b890c350e.pdf).
+
+- [Subir](#Contenido).
+
 ## Adicional
 
 ### jQuery: crossDomain
@@ -411,6 +424,11 @@ Te dejo la parte relevante de la documentación por si te da curiosidad:
 crossDomain (default: false for same-domain requests, true for cross-domain requests)
 Type: Boolean
 If you wish to force a crossDomain request (such as JSONP) on the same domain, set the value of crossDomain to true. This allows, for example, server-side redirection to another domain. (version added: 1.5)
+
+### Chache
+
+Son archivos (vídeos,audios,imágenes,textos,etc) pertenecientes a cierto ordenador (que no es el tuyo) de una pagina web pero que una parte de dichos archivos se guardan en tu ordenador con el objetivo de que cuando vuelvas otra vez a dicha pagina web tengas la sensación que la pagina haya cargado mucho mas rápido.
+La ventaja del caché es la velocidad con la que carga la página web y su desventaja es que puede ocupar bastante espacio en tu memoria del CPU.
 
 ## Repositorio de Github
 
