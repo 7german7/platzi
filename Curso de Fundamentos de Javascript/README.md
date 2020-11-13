@@ -22,6 +22,10 @@
 - [Asincronismo](#Asincronismo).
 - [Cómo funciona el tiempo en JavaScript](#Cómo-funciona-el-tiempo-en-JavaScript).
 - [Promesas](#Promesas).
+- [Memorización](#Memorización).
+- [Closures](#Closures).
+- [Estructuras de datos inmutables](#Estructuras-de-datos-inmutables).
+- [Contexto(this)](#Contexto).
 
 ## Variables
 
@@ -406,6 +410,28 @@ En principio, cualquier tarea que se haya delegado al navegador a través de un 
 - [Promesas | Platzi PDF](https://static.platzi.com/media/public/uploads/promesas_e7100aa0-540e-4d37-83fc-113b890c350e.pdf).
 
 - [Subir](#Contenido).
+
+## Memorización
+
+La memorización es una técnica de programación que nos permite ahorrar cómputo o procesamiento en JavaScript, al ir almacenando el resultado invariable de una función para que no sea necesario volver a ejecutar todas las instrucciones de nuevo, cuando se vuelva a llamar con los mismos parámetros. Es similar a usar memoria cache.
+
+## Closures
+
+[Aporte | Platzi](https://platzi.com/comentario/919765/).
+
+## Estructuras de datos inmutables
+
+[Aporte | Platzi](https://platzi.com/comentario/674547/).
+
+## Contexto
+
+El contexto (o alcance) de una función es por lo general, window. Así que en ciertos casos, cuando intentamos referirnos a this en alguna parte del código, es posible que tengamos un comportamiento inesperado, porque el contexto quizás no sea el que esperamos.
+
+Existen al menos tres maneras de cambiar el contexto de una función.
+
+Usando el método `.bind`, enviamos la referencia a la función sin ejecutarla, pasando el contexto como parámetro.
+Usando el método `.call`, ejecutamos inmediatamente la función con el contexto indicado
+Usando el método `.apply`, es similar a .call pero los parámetros adicionales se pasan como un arreglo de valores
 
 ## Adicional
 
