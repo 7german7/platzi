@@ -423,6 +423,8 @@ La memorización es una técnica de programación que nos permite ahorrar cómpu
 
 [Aporte | Platzi](https://platzi.com/comentario/674547/).
 
+- [Subir](#Contenido).
+
 ## Contexto
 
 El contexto (o alcance) de una función es por lo general, window. Así que en ciertos casos, cuando intentamos referirnos a this en alguna parte del código, es posible que tengamos un comportamiento inesperado, porque el contexto quizás no sea el que esperamos.
@@ -451,11 +453,15 @@ crossDomain (default: false for same-domain requests, true for cross-domain requ
 Type: Boolean
 If you wish to force a crossDomain request (such as JSONP) on the same domain, set the value of crossDomain to true. This allows, for example, server-side redirection to another domain. (version added: 1.5)
 
-### Chache
+### Cache
 
 Son archivos (vídeos,audios,imágenes,textos,etc) pertenecientes a cierto ordenador (que no es el tuyo) de una pagina web pero que una parte de dichos archivos se guardan en tu ordenador con el objetivo de que cuando vuelvas otra vez a dicha pagina web tengas la sensación que la pagina haya cargado mucho mas rápido.
 La ventaja del caché es la velocidad con la que carga la página web y su desventaja es que puede ocupar bastante espacio en tu memoria del CPU.
 
+- [Subir](#Contenido).
+
 ## Repositorio de Github
 
 - [Aqui](https://github.com/platzi/FundamentosJSCurso).
+
+- [Subir](#Contenido).

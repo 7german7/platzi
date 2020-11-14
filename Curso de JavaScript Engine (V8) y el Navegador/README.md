@@ -9,12 +9,13 @@
 5. [Garbage Collection](#Garbage-Collection).
 6. [Run Time](#Run-Time).
 7. [Asincronía](#Asincronía).
+8. [Stack Overflow](#Stack-Overflow).
 
 ## Historia de Javascript
 
 - Creado por [Brendan Eich](https://www.instagram.com/p/B4nPBx4BNFt/).
-- Nace en 1995.
-- Antes de Javascript, las paginas eran muy estaticas.
+- Nace en **1995** con el nombre de **Mocha**.
+- Antes de Javascript, las paginas no eran muy **dinamicas** y por eso se creo el lenguaje.
 - ECMA, es un grupo de desarroladores que se encargan de estandarizar el lenguaje de programacion para los navegadores (JavaScript).
 
 **Referencias**:
@@ -82,6 +83,12 @@ Taquería DeGranda presenta a:
 👨‍🍳 - web APIs : la cocina
 🌯 - callback queue : las órdenes preparadas
 💁‍♂️ - event loop : el mesero
+
+[Ir Arriba](#Contenido).
+
+## Stack Overflow
+
+Es cuando mas de las tareas de las que podemos procesar en el call stack.
 
 [Ir Arriba](#Contenido).
 
