@@ -29,6 +29,7 @@
 
 ## V8
 
+- Es un interprete, que compila codigo JavaScript a Bytecode.
 - Motor de Javascript de Chrome.
 - Ayuda a que el lenguaje sea mas rapido.
 - V8 nace desde Google Maps para que esta funcione rapidamente.
