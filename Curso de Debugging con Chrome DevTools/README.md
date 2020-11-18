@@ -138,6 +138,7 @@ El panel de network, nos **permite evaluar si los archivos fueron descargados o 
 - [Códigos de estado de respuesta HTTP | cat](https://http.cat/).
 - [Inspect Network Activity In Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/network/).
 - [Práctica](https://devtools.glitch.me/network/getstarted.html).
+- [Ejercicio](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance).
 
 [Subir](#Contenido).
 
