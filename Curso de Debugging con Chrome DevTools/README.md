@@ -10,6 +10,7 @@
 6. [JS y el DOM](#JS-y-el-DOM).
 7. [DevTools como editor](#DevTools-como-editor).
 8. [Network](#Network).
+9. [Auditoria en Mobile](#Auditoria-en-Mobile).
 
 ## Debugging
 
@@ -137,8 +138,22 @@ El panel de network, nos **permite evaluar si los archivos fueron descargados o 
 - [Códigos de estado de respuesta HTTP | MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Status).
 - [Códigos de estado de respuesta HTTP | cat](https://http.cat/).
 - [Inspect Network Activity In Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/network/).
-- [Práctica](https://devtools.glitch.me/network/getstarted.html).
-- [Ejercicio](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance).
+- [Práctica | Carga de Archivos](https://devtools.glitch.me/network/getstarted.html).
+- [Ejercicio | Optimizando rendimiento](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance).
+
+[Subir](#Contenido).
+
+## Auditoria en Mobile
+
+- Una página debe emepezar a interactuar con el usuario en 2seg.
+
+**Progressive Web Apps**: Son las páginas web que tienen buen rendimiento en modo Mobile o Desktop.
+
+**Buenas practicas**:
+
+- Hacer uso de la memoria cache.
+
+- [Fundamentos](https://web.dev/progressive-web-apps/).
 
 [Subir](#Contenido).
 
@@ -152,3 +167,7 @@ El panel de network, nos **permite evaluar si los archivos fueron descargados o 
   - [Screensiz](https://screensiz.es/).
   - [Material](https://material.io/blog/device-metrics).
 - [Debugging en JS](https://platzi.com/comentario/1216260/).
+
+**Preprocesadores que puedo utilizar con DevTools**
+
+- SASS
