@@ -74,3 +74,4 @@ original.
 - [Publics APIs](https://github.com/public-apis/public-apis).
 - [¿Para que sirven los callbacks?](https://platzi.com/comentario/1441174/).
 - [Callstack and Event Loop](https://medium.com/@ubykuo/event-loop-la-naturaleza-asincr%C3%B3nica-de-javascript-78d0a9a3e03d).
+- [10-plugins-esenciales-para-vscode](https://platzi.com/blog/10-plugins-esenciales-para-vscode/).
