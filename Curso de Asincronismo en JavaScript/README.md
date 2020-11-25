@@ -5,7 +5,6 @@
 - Una función que recibe otra función como parámetro se le denomina función de orden superior (**higher-order function**).
 - El callback en este caso sería la función que es pasada como parámetro, mas no la función que lo recibe.
 
-
 ## Conceptos Basicos
 
 **El asincronismo**: Es básicamente una manera de aprovechar el tiempo y los recursos de nuestra aplicación, ejecutando tareas y procesos mientras otros son resueltos en background (como la llegada de la información de una API), para posteriormente continuar con las tareas que requerían esa información que no tenías de manera instantánea.
@@ -68,6 +67,17 @@ la máquina virtual de Java.
 programa produce otro programa en otro lenguaje cuyo comportamiento es el mismo que el
 original.
 
+## Conclusiones
+
+**Callbacks** --> *Ventajas*: Simple(una función que recibe otra función). Son universales, corren en cualquier navegador.
+*Desventajas*: Composición tediosa, anidando cada vez más elementos. Caer en Callback Hell.
+
+**Promesas** --> *Ventajas*: Facilmente enlazables .Then( return… ).Then - Fácil e intuitivo de leer.
+*Desventajas*: Posible error si no se retorna el siguiente llamado. No corre en todos los navegadores.
+
+**Async-Await** --> *Ventajas*: Se puede usar try-catch . Código más ordenado e intuitivo.
+*Desventajas*: No corre en todos los navegadores (se requiere un transpilador).
+
 ## Recursos
 
 - [API del Curso](https://rickandmortyapi.com/).
@@ -75,3 +85,6 @@ original.
 - [¿Para que sirven los callbacks?](https://platzi.com/comentario/1441174/).
 - [Callstack and Event Loop](https://medium.com/@ubykuo/event-loop-la-naturaleza-asincr%C3%B3nica-de-javascript-78d0a9a3e03d).
 - [10-plugins-esenciales-para-vscode](https://platzi.com/blog/10-plugins-esenciales-para-vscode/).
+- Juego
+    - [Live](https://juandagarcia.github.io/MemoryGame/)
+    - [Repositorio](https://github.com/JuandaGarcia/MemoryGame).
