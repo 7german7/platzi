@@ -17,7 +17,7 @@
 
 ### Creación y Diseño de Componentes
 
-- [Componentes](#Componentes?).
+- [Componentes](#Componentes).
 
 ## Definición
 
